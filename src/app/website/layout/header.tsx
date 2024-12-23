@@ -5,12 +5,12 @@ const Header= ()=>{
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     return(
-        <nav className="bg-white rounded-[100px] shadow-md p-6 mx-[30px] xl:mx-[30px] md:mx-[30px] lg:mx-[30px]  mt-[20px]  xl:mt-[40px] md:mt-[40px] lg:mt-[40px] flex items-center justify-between">
+        <nav className="bg-white rounded-[100px] p-6 mx-[30px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px]  mt-[20px]  xl:mt-[40px] md:mt-[40px] lg:mt-[40px] flex items-center justify-between">
         <div className="flex items-center">
           <img
-            src="/logo.png"
+            src="assets/images/logo.png"
             alt="Logo"
-            className="h-10 w-auto"
+            className="xl:h-16 lg:h-16 md:h-16 h-10  w-auto xl:ml-[10px] lg:ml-[10px] md:ml-[10px] ml-[10px]"
           />
         </div>
   
@@ -36,9 +36,9 @@ const Header= ()=>{
               
               Resources
               <img
-                src="/dropdown-icon.png" // Replace with your dropdown icon path
-                alt="Dropdown Icon"
-                className="h-4 w-4 mr-2"
+                src="assets/icons/dropdown.svg"
+                alt=""
+                className="w-[14px] h-auto ml-2 xl:contain"
               />
             </button>
   
@@ -48,20 +48,9 @@ const Header= ()=>{
                   href="#resource1"
                   className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
                 >
-                  Resource 1
+                FAQs
                 </a>
-                <a
-                  href="#resource2"
-                  className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                >
-                  Resource 2
-                </a>
-                <a
-                  href="#resource3"
-                  className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                >
-                  Resource 3
-                </a>
+                
               </div>
             )}
           </div>
