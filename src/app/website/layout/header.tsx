@@ -5,7 +5,7 @@ const Header= ()=>{
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     return(
-        <nav className="bg-white rounded-[100px] p-6 mx-[30px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px]  mt-[20px]  xl:mt-[40px] md:mt-[40px] lg:mt-[40px] flex items-center justify-between">
+        <nav className="bg-white rounded-[100px] p-4 mx-[30px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px]  mt-[20px]  xl:mt-[40px] md:mt-[40px] lg:mt-[40px] flex items-center justify-between">
         <div className="flex items-center">
           <img
             src="assets/images/logo.png"
@@ -57,8 +57,8 @@ const Header= ()=>{
         </div>
   
         <div>
-          <button className="bg-blue-600 text-white font-medium px-6 py-2 rounded-full hover:bg-blue-700 transition">
-            Get Started
+          <button className="bg-[#3E76DE] text-white font-medium px-6 py-2 border-[0px] rounded-full xl:w-[160px] xl:h-[60px] hover:bg-blue-700 transition">
+            Sign up
           </button>
         </div>
       </nav>
