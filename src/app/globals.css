@@ -1,21 +1,28 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/assets/fonts/Gilroy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-gilroy;
 }
+
+.btn-normal {
+  @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-5 lg:py-4 md:py-4 py-4 px-10 xl:px-[55px] lg:px-6 md:px-6 bg-primary text-[#ffffff] hover:text-[#ffffff] font-semibold rounded-[100px] hover:bg-secondary focus:ring-primary;
+}
+
+.btn-normal-b {
+  @apply xl:py-5 lg:py-4 md:py-4 py-4 px-10 xl:px-14 lg:px-6 md:px-6 bg-primary text-[#000000] hover:text-[#000000] font-semibold rounded-[10px] hover:bg-[#15A46D] focus:ring-primary;
+}
+
+.btn-normal-t {
+  @apply xl:py-3 lg:py-4 md:py-4 py-3 px-2 xl:px-0 lg:px-4 md:px-4 bg-opacity-[1] bg-[#234639] text-[#000000] border-[1px] w-[140px] rounded-full border-[#234639] shadow-md border-l-[#234639] border-t-[#234639] hover:text-[#000000] font-normal xl:font-normal lg:font-normal md:font-normal hover:bg-[#252525] focus:ring-[#252525];
+}
+

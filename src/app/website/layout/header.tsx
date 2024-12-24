@@ -14,16 +14,16 @@ const Header= ()=>{
           />
         </div>
   
-        <div className="hidden md:flex space-x-8 items-center">
+        <div className="hidden md:flex space-x-10 items-center">
           <a
             href="#home"
-            className="text-gray-800 font-medium hover:text-blue-600 transition"
+            className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
           >
             Home
           </a>
           <a
             href="#why-ubupay"
-            className="text-gray-800 font-medium hover:text-blue-600 transition"
+            className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
           >
             Why UbuPay?
           </a>
@@ -31,7 +31,7 @@ const Header= ()=>{
           <div className="relative">
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="flex items-center text-gray-800 font-medium hover:text-blue-600 transition"
+              className="flex items-center text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
             >
               
               Resources
@@ -46,7 +46,7 @@ const Header= ()=>{
               <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg">
                 <a
                   href="#resource1"
-                  className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                  className="block px-4 py-2 text-[#34342A] hover:bg-gray-100"
                 >
                 FAQs
                 </a>
@@ -57,7 +57,8 @@ const Header= ()=>{
         </div>
   
         <div>
-          <button className="bg-[#3E76DE] text-white font-medium px-6 py-2 border-[0px] rounded-full xl:w-[160px] xl:h-[60px] hover:bg-blue-700 transition">
+          <button 
+                    className="flex flex-row btn btn-normal xl:btn-normal md:btn-normal font-semibold lg:btn-normal items-center transition ease-out duration-500">
             Sign up
           </button>
         </div>
