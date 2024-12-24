@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
        backgroundImage: {
-        'bg-banner': "url('/assets/images/banner_bg.png')",
+        'banner-img': "url('/assets/images/banner-img.png')",
         'vertical': "url('/assets/images/vertical.png')",
         'vertical-2': "url('/assets/images/vertical.png')",
         'color-splash': "url('/assets/images/color-splash.png')",
