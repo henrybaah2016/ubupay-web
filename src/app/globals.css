@@ -25,6 +25,13 @@ body {
   @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-5 lg:py-4 md:py-4 py-4 px-10 xl:px-[40px] lg:px-6 md:px-6 bg-primary text-[#ffffff] hover:text-[#ffffff] font-semibold rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
 }
 
+.btn-playstore-2 {
+  @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-4 lg:py-3 md:py-3 py-3 px-8 xl:px-[25px] lg:px-4 md:px-4 bg-[#2F5FB9] text-[#ffffff] hover:text-[#ffffff] font-semibold rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
+}
+.btn-appstore-2 {
+  @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-4 lg:py-3 md:py-3 py-3 px-8 xl:px-[25px] lg:px-4 md:px-4 bg-primary text-[#ffffff] hover:text-[#ffffff] font-semibold rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
+}
+
 .btn-readmore {
   @apply mr-1 xl:mr-1 lg:mr-1 border-[#ffffff] border-[2px] md:mr-1 xl:py-5 lg:py-4 md:py-4 py-4 px-10 xl:px-[40px] lg:px-6 md:px-6 bg-primary text-[#ffffff] hover:text-[#ffffff] font-semibold rounded-[100px];
 }
