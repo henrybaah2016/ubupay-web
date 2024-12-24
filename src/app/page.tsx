@@ -1,12 +1,16 @@
+"use client"
 import React, { useState } from "react";
 import Header from "./website/layout/header";
+import Home from "./website/home/page";
 
-const Home = () => {
+const App = () => {
 
   return (
-
-    <Header />
+    <div>
+      <Header />
+      <Home />
+    </div>
   );
 };
 
-export default Home;
+export default App;
