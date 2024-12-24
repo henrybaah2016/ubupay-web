@@ -10,7 +10,7 @@ const Header= ()=>{
           <img
             src="assets/images/logo.png"
             alt="Logo"
-            className="xl:h-16 lg:h-16 md:h-16 h-10  w-auto xl:ml-[10px] lg:ml-[10px] md:ml-[10px] ml-[10px]"
+            className="xl:h-16 lg:h-16 md:h-16 h-10  w-auto xl:ml-[16px] lg:ml-[10px] md:ml-[10px] ml-[10px]"
           />
         </div>
   
@@ -56,9 +56,15 @@ const Header= ()=>{
           </div>
         </div>
   
-        <div>
+        <div className="flex items-center space-x-8 xl:mr-[16px]">
+        <a
+            href="#login"
+            className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+          >
+            Login
+          </a>
           <button 
-                    className="flex flex-row btn btn-normal xl:btn-normal md:btn-normal font-semibold lg:btn-normal items-center transition ease-out duration-500">
+                    className="flex flex-row btn btn-normal xl:btn-normal md:btn-normal font-semibold lg:btn-normal items-center  transition ease-out duration-500">
             Sign up
           </button>
         </div>
