@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../partials/banner";
 import WhyUbupay from "../partials/why-ubupay";
 import Solution from "../partials/solution";
+import HowItWorks from "../partials/how-it-works";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <Banner />
         <WhyUbupay/>
         <Solution/>
+        <HowItWorks/>
     </div>
   );
 };
