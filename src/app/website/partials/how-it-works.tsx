@@ -16,27 +16,27 @@ const HowItWorks = () => {
         {
             number: 2,
             title: "Verify Your Identity",
-            description: "",
+            description: "Complete your profile by verifying your identity. Upload a valid government-issued ID, such as a passport or driver’s license, and a selfie to confirm your identity. This process complies with international security standards to prevent fraud and ensure secure transactions.",
         },
         {
             number: 3,
             title: "Add a Payment Method",
-            description: "",
+            description: "Link a payment method to fund your transfers. Choose from options like a debit card, credit card, or bank account. Your payment details are encrypted for security, and you can manage your methods easily within the app.",
         },
         {
             number: 4,
             title: "Enter Transfer Details",
-            description: "",
+            description: "Specify the recipient's details, including their name, address, and bank account information (if applicable). Input the amount you want to send, and the app will calculate any applicable fees and the exchange rate.",
         },
         {
             number: 5,
             title: "Review & Confirm",
-            description: "",
+            description: "Double-check all the details, including the recipient’s information, transfer amount, and fees. Confirm the transfer to initiate the transaction. Once confirmed, you’ll receive a receipt and a tracking number.",
         },
         {
             number: 6,
             title: "Track Transfer  Status",
-            description: "",
+            description: "Monitor your transfer’s progress in real-time. The app provides status updates, from processing to completion. Notifications will alert you once the transfer is successful.",
         },
     ];
 
