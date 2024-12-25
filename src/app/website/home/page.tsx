@@ -4,6 +4,7 @@ import WhyUbupay from "../partials/why-ubupay";
 import Solution from "../partials/solution";
 import HowItWorks from "../partials/how-it-works";
 import DownloadApp from "../partials/download-app";
+import Footer from "../layout/footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Solution/>
         <HowItWorks/>
         <DownloadApp/>
+        <Footer/>
     </div>
   );
 };
