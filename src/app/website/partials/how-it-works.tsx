@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const HowItWorks = () => {
     const [openIndex, setOpenIndex] = useState(0);
 
-    const toggleFAQ = (index) => {
+    const toggleFAQ = (index: React.SetStateAction<number>) => {
         setOpenIndex(openIndex === index ? 0 : index);
     };
 

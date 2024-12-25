@@ -3,6 +3,7 @@ import Banner from "../partials/banner";
 import WhyUbupay from "../partials/why-ubupay";
 import Solution from "../partials/solution";
 import HowItWorks from "../partials/how-it-works";
+import DownloadApp from "../partials/download-app";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <WhyUbupay/>
         <Solution/>
         <HowItWorks/>
+        <DownloadApp/>
     </div>
   );
 };
