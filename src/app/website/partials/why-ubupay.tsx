@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyUbupay = () => {
     return (
-        <section className="bg-primary mt-[140px] py-[100px] rounded-[26px]">
+        <section className="bg-primary mt-[140px] py-[100px] rounded-[0px]">
             <div className="flex flex-col md:flex-row px-4 mx-[30px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px] py-10 ">
                 <div className="w-full xl:w-[45%] md:w-[40%]  lg:w-[40%] flex flex-col justify-center items-start  mb-6 md:mb-0">
                     <h1 className="text-[#ffffff] xl:pr-[160px] pt-[50px] leading-tight lg:leading-[53px] xl:leading-[50px] xl:pb-[5px] md:pb-[10px] lg:pb-0 pb-[10px] pt-0 lg:pt-0 xl:pt-2 md:pt-[100px] lg:text-[20px] xl:text-[40px] font-bold text-2xl">

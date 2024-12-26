@@ -2,8 +2,8 @@ import React from "react";
 
 const DownloadApp = () => {
     return (
-        <section className="bg-[#F6F9FF] xl:py-[100px]">
-            <div className="bg-primary mx-[30px] xl:mx-[100px] mt-[120px] py-[10px] rounded-[36px] relative">
+        <section className="bg-[#F6F9FF] xl:py-[200px]">
+            <div className="bg-primary mx-[30px] xl:mx-[100px] mt-[40px] py-[10px] rounded-[36px] relative">
                 <div className="absolute top-[-80px] left-[-50px] xl:left-[-10px] w-[45%] xl:w-[45%]">
                     <img src="/assets/images/mockup-3.png" alt="Phone" className="w-full h-auto" />
                 </div>

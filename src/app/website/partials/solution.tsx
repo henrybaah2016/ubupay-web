@@ -4,7 +4,7 @@ const Solution = () => {
 
 
     return (
-        <section className="bg-[#F6F9FF] mt-[10px] py-[10px] rounded-[0px]">
+        <section className="bg-[#F6F9FF] mt-[0px] py-[10px] rounded-[0px]">
             <div className="flex flex-col md:flex-row px-4 mx-[30px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px] space-x-[130px] py-10 ">
 
                 <div className="pt-6 lg:mt-[95px] xl:mb-[65px] md:pt-0 flex flex-col w-full lg:w-[45%] md:w-[45%] xl:w-[45%] justify-center md:ml-0 lg:ml-20 md:ml-20 xl:ml-20">
