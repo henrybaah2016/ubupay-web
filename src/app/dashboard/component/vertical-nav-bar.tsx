@@ -50,7 +50,7 @@ const VerticalNavbar = () => {
                     />
                     <span
                         className={`text-md ${
-                            activeIndex === index ? "text-primary font-semibold text-[#91B4F5]" : "text-white font-semibold"
+                            activeIndex === index ? "text-[#91B4F5] font-semibold text-[#91B4F5]" : "text-white font-semibold"
                         }`}
                     >
                         {item.label}
