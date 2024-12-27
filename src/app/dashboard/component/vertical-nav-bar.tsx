@@ -1,53 +1,72 @@
-import React from "react";
+import React, { useState } from "react";
 
 const VerticalNavbar = () => {
+    const [activeIndex, setActiveIndex] = useState(0); 
     const navItems = [
         {
             icon: "/assets/icons/home-white.png",
+            activeIcon: "/assets/icons/home-blue.png", 
             label: "Dashboard",
-            width: 24,
-            height: 24,
+            width: 18,
+            height: 18,
         },
         {
             icon: "/assets/icons/transaction-white.png",
+            activeIcon: "/assets/icons/transaction-blue.png", 
             label: "Transaction",
-            width: 28,
-            height: 28,
+            width: 24,
+            height: 18,
         },
         {
             icon: "/assets/icons/card-white.png",
+            activeIcon: "/assets/icons/card-blue.png", 
             label: "Card",
-            width: 32,
-            height: 32,
+            width: 22,
+            height: 18,
         },
     ];
 
     return (
-        <div className="bg-primary text-white h-screen w-60 flex flex-col items-center py-4">
-            {/* Logo at the top */}
-            <div className="mb-8">
+        <div className="bg-primary text-white h-screen w-60 px-4 flex flex-col items-start py-0">
+            <div className="mb-8 px-4">
                 <img
-                    src="/assets/icons/logo.png"
-                    alt="Logo"
-                    className="w-16 h-16"
+                    src="/assets/images/logo-white.png"
+                    alt="UbuPay"
+                    className="w-auto h-[60px]"
                 />
             </div>
 
-            {/* Navigation Items */}
             {navItems.map((item, index) => (
                 <div
                     key={index}
-                    className="flex items-center w-full space-x-3 px-4 py-3 my-2 rounded-lg hover:bg-gray-700 cursor-pointer"
+                    onClick={() => setActiveIndex(index)} 
+                    className={`flex items-center space-x-3 py-5 my-2 rounded-full cursor-pointer w-full px-4 ${activeIndex === index ? "bg-white text-primary" : "hover:bg-transparent"}`}
                 >
                     <img
-                        src={item.icon}
+                        src={activeIndex === index ? item.activeIcon : item.icon}
                         alt={item.label}
                         style={{ width: `${item.width}px`, height: `${item.height}px` }}
                         className="flex-shrink-0"
                     />
-                    <span className="text-sm text-white">{item.label}</span>
+                    <span
+                        className={`text-md ${
+                            activeIndex === index ? "text-primary font-semibold text-[#91B4F5]" : "text-white font-semibold"
+                        }`}
+                    >
+                        {item.label}
+                    </span>
                 </div>
             ))}
+
+            <div className="mt-auto flex items-center space-x-3 py-5 my-2 rounded-full hover:bg-[#2F5FB9] cursor-pointer w-full px-4 bg-transparent">
+                <img
+                    src="/assets/icons/logout.png" 
+                    alt="Logout"
+                    style={{ width: '18px', height: '18px' }}
+                    className="flex-shrink-0"
+                />
+                <span className="text-md text-white font-semibold">Logout</span>
+            </div>
         </div>
     );
 };

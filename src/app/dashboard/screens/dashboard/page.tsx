@@ -1,7 +1,7 @@
+"use client"
 import React from "react";
 import HorizontalNavbar from "../../component/horizontal-nav-bar";
 import VerticalNavbar from "../../component/vertical-nav-bar";
-import TransactionSummary from "../../component/transaction-summary";
 
 const Dashboard = () => {
     return (
