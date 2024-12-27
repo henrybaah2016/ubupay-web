@@ -38,7 +38,7 @@ const QuickSend = () => {
                             alt={sender.name}
                             className="w-10 h-10 rounded-full"
                         />
-                        <span className="text-lg text-[#6C6C6C] font-semibold">{sender.name}</span>
+                        <span className="text-[16px] text-[#6C6C6C] font-semibold">{sender.name}</span>
                     </div>
                 ))}
             </div>
