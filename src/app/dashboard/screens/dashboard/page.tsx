@@ -3,6 +3,7 @@ import React from "react";
 import HorizontalNavbar from "../../component/horizontal-nav-bar";
 import VerticalNavbar from "../../component/vertical-nav-bar";
 import OverallTransferCard from "./component/overall-card";
+import QuickSend from "./component/quick-send";
 
 const Dashboard = () => {
     return (
@@ -16,6 +17,7 @@ const Dashboard = () => {
 
                 <div className="p-6 flex-1 overflow-y-auto">
                     <OverallTransferCard/>
+                    <QuickSend/>
                     {/* <TransactionSummary /> */}
                 </div>
             </div>

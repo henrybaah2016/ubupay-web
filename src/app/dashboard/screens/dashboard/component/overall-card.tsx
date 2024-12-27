@@ -3,7 +3,7 @@ import React from "react";
 const OverallTransferCard = () => {
     return (
         <div
-            className="relative bg-cover bg-center w-80 h-[200px] rounded-lg px-[30px]  space-y-5 flex flex-col justify-center text-white"
+            className="relative bg-cover bg-center mx-[30px] w-80 h-[200px] rounded-lg px-[30px]  space-y-5 flex flex-col justify-center text-white"
             style={{
                 backgroundImage: "url('/assets/images/overall-bg.png')", 
             }}
