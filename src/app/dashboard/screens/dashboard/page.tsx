@@ -5,7 +5,7 @@ import VerticalNavbar from "../../component/vertical-nav-bar";
 
 const Dashboard = () => {
     return (
-        <div className="flex h-screen">
+        <div className="flex h-screen bg-white">
             <div className="h-full">
                 <VerticalNavbar />
             </div>
