@@ -2,13 +2,13 @@ import React from "react";
 
 const HorizontalNavbar = () => {
     return (
-        <div className="flex items-center justify-between p-4 mx-[30px]">
+        <div className="flex items-center justify-between  p-4 mx-[30px]">
             <div className="flex items-center">
                 <form className="relative">
                     <input
                         type="email"
                         placeholder="Search"
-                        className="w-full pl-12 py-3 bg-[#F9F9F9] border-[1px]  text-[#000000] text-[14px] pr-4 font-semibold  rounded-full focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                        className="w-full pl-12 py-3 bg-[#F9F9F9] border-[1px]  text-[#9F9F9F] placeholder-[#9F9F9F] text-[14px] pr-4 font-semibold  rounded-full focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
                     />
                     <img
                         src="/assets/icons/search.png"
