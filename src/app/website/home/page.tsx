@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Banner from "../partials/banner";
 import WhyUbupay from "../partials/why-ubupay";
@@ -6,11 +7,9 @@ import HowItWorks from "../partials/how-it-works";
 import DownloadApp from "../partials/download-app";
 import Footer from "../layout/footer";
 import Header from "../layout/header";
-import { useRouter } from "next/navigation";
 
 
 const Home = () => {
-  const router = useRouter();
   return (
     <div>
       <Header/>
