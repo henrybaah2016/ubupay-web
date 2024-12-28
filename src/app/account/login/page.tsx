@@ -101,7 +101,7 @@ const Login = () => {
                         Don't have an account?{" "}
                         <span
                             className="text-yellow cursor-pointer"
-                            onClick={() => router.push("/signup")}
+                            onClick={() => router.push("/account/signup")}
                         >
                             Sign up
                         </span>
