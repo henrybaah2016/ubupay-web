@@ -1,6 +1,9 @@
 import React from "react";
+import { useRouter } from "next/navigation";
 
 const HorizontalNavbar = () => {
+        const router = useRouter();
+    
     return (
         <div className="flex items-center justify-between  p-4 mx-[30px]">
             <div className="flex items-center">
@@ -13,8 +16,7 @@ const HorizontalNavbar = () => {
                     <img
                         src="/assets/icons/search.png"
                         alt="Email"
-
-                        className="absolute left-4 top-1/2 transform -translate-y-1/2 pointer-cursor w-auto h-3"
+                        className="absolute left-4 top-1/2 cursor-pointer transform -translate-y-1/2 pointer-cursor w-auto h-3"
                     />
                 </form>
             </div>

@@ -1,4 +1,5 @@
 "use client"
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 const Signup = () => {
@@ -26,20 +27,23 @@ const Signup = () => {
         setDropdownVisible(false);
     };
 
+    const router = useRouter();
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        router.push("/account/otp");
+    };
     return (
         <div className="flex h-screen bg-[#FFFFFF]">
             <div
                 className="w-[40%] bg-account-bg-3 rounded-[20px] xl:mx-10 xl:my-4 bg-cover flex flex-col justify-between p-4"
             >
-                {/* <div className="bg-white p-4 rounded-full ">
-                    <img
-                        src="/assets/images/logo.png"
-                        alt="Logo"
-                        className="w-20 h-auto"
-                    />
-                </div> */}
 
-                <div className="flex items-center cursor-pointer mt-[20px] ml-[20px] space-x-2">
+
+
+
+                <div
+                    onClick={() => router.push("/")}
+                    className="flex items-center cursor-pointer mt-[20px] ml-[20px] space-x-2">
                     <img
                         src="/assets/icons/arrow-back.png"
                         alt="Icon"
@@ -60,7 +64,7 @@ const Signup = () => {
                     Create an account send money to Africa
                 </p>
 
-                <form>
+                <form onSubmit={handleSubmit}>
                     <div className="mb-4">
                         <input
                             type="email"
@@ -125,7 +129,7 @@ const Signup = () => {
                         <input
                             type="checkbox"
                             id="terms"
-                            className="w-4 h-4 text-yellow bg-[#ECECEC] focus:ring-primary rounded"
+                            className="peer w-4 h-4 text-primary border-gray-300 rounded bg-gray-100 focus:ring-primary"
                         />
                         <label htmlFor="terms" className="ml-2 text-[#6c6c6c] font-semibold text-[14px]">
                             By creating an account, you agree to our{" "}
@@ -135,7 +139,7 @@ const Signup = () => {
 
                     <button
                         type="submit"
-                        className="w-full bg-primary text-white py-3 mt-[30px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
+                        className="w-full bg-primary  h-[55px] text-white py-3 mt-[30px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
                     >
                         Sign up
                     </button>
@@ -168,8 +172,11 @@ const Signup = () => {
 
                 <div className="flex items-center justify-center my-8">
                     <div className="mx-4 text-center text-[#6c6c6c] font-semibold text-[16px]">Already have an account?
-                        <span className="text-yellow"> Sign in</span>
-                        </div>
+                        <span className="text-yellow cursor-pointer"
+                            onClick={() => router.push("/account/login")}
+
+                        > Sign in</span>
+                    </div>
                 </div>
             </div>
 
