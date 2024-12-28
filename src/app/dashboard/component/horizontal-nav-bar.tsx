@@ -23,7 +23,7 @@ const HorizontalNavbar = () => {
             <div className="flex items-center space-x-6">
                 <button
                     className="flex flex-row btn btn-normal items-center xl:btn-normal md:btn-normal font-semibold lg:btn-normal items-center  transition ease-out duration-500">
-                    Transfer
+                    Send
                 </button>
                 <div className="relative">
                     <img src="/assets/icons/notification.png" alt="Notification" className="w-auto h-5" />

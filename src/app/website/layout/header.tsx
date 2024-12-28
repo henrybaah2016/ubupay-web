@@ -70,7 +70,7 @@ const Header = () => {
         </a>
         <button
           className="flex flex-row btn btn-normal xl:btn-normal md:btn-normal font-semibold lg:btn-normal items-center  transition ease-out duration-500"
-          onClick={() => router.push("/dashboard/screens/dashboard")}
+          onClick={() => router.push("/account/signup")}
 
         >
           Sign up

@@ -9,10 +9,11 @@ export default {
   theme: {
     extend: {
        backgroundImage: {
-        'banner-img': "url('/assets/images/banner-img.png')",
-        'vertical': "url('/assets/images/vertical.png')",
-        'vertical-2': "url('/assets/images/vertical.png')",
-        'color-splash': "url('/assets/images/color-splash.png')",
+        'account-bg-1': "url('/assets/images/account-bg-1.png')",
+        'account-bg-2': "url('/assets/images/account-bg-2.png')",
+        'account-bg-3': "url('/assets/images/account-3.png')",
+
+
       },
       colors:{
         primary:'#3E76DE',
@@ -22,6 +23,7 @@ export default {
       fontFamily: {
         gilroy: ['Gilroy'],
       },
+      
   },
   plugins: [],
 } 

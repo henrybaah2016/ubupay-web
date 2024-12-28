@@ -4,7 +4,7 @@ import HorizontalNavbar from "../../component/horizontal-nav-bar";
 import VerticalNavbar from "../../component/vertical-nav-bar";
 import OverallTransferCard from "./component/overall-card";
 import QuickSend from "./component/quick-send";
-import TransactionSummary from "../../component/transaction-summary";
+import TransactionSummary from "./component/transaction-summary";
 
 const Dashboard = () => {
     return (
