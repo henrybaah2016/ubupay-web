@@ -21,7 +21,7 @@ const OTP = () => {
         const otpCode = otp.join(""); 
         console.log("OTP Code:", otpCode); 
 
-        router.push("/dashboard/screens/dashboard");
+        router.push("/account/kyc/basic-information");
     };
 
     return (
@@ -52,7 +52,7 @@ const OTP = () => {
                         > hello@gmail.com</span>
                 </p>
 
-                <form>
+                <form onClick={handleSubmit}>
                     <div className="flex space-x-6 mb-4">
                         {otp.map((digit, index) => (
                             <input
@@ -69,6 +69,7 @@ const OTP = () => {
 
                     <button
                         type="submit"
+                        
                         className="w-full bg-primary h-[55px] text-white py-3 mt-[90px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
                     >
                         Verify OTP
