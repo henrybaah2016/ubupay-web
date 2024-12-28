@@ -43,3 +43,30 @@ body {
 .btn-normal {
   @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-3 lg:py-3 md:py-3 py-2 px-8 xl:px-[40px] lg:px-6 md:px-6 bg-primary text-[#ffffff] hover:text-[#ffffff] font-semibold rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
 }
+
+
+
+
+.custom-datepicker-popper {
+  @apply bg-white border border-gray-300 rounded-lg  max-h-[300px] overflow-y-auto z-50;
+}
+
+.react-datepicker__header {
+  @apply bg-gray-100 border-b border-gray-300;
+}
+
+.react-datepicker__day {
+  @apply text-gray-800;
+}
+
+.react-datepicker__day--selected {
+  @apply bg-blue-500 text-white;
+}
+
+.react-datepicker__day--keyboard-selected {
+  @apply bg-blue-100;
+}
+
+.react-datepicker__day--today {
+  @apply font-bold;
+}
