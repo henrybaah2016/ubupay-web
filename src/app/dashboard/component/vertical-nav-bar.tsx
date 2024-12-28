@@ -1,7 +1,9 @@
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 const VerticalNavbar = () => {
     const [activeIndex, setActiveIndex] = useState(0); 
+    const router = useRouter()
     const navItems = [
         {
             icon: "/assets/icons/home-white.png",
@@ -30,9 +32,11 @@ const VerticalNavbar = () => {
         <div className="bg-primary text-white h-screen w-60 px-4 flex flex-col items-start py-0">
             <div className="mb-8 px-4">
                 <img
+
                     src="/assets/images/logo-white.png"
                     alt="UbuPay"
-                    className="w-auto h-[60px]"
+                    onClick={() => router.push("/")}
+                    className="w-auto h-[60px] cursor-pointer"
                 />
             </div>
 
@@ -62,6 +66,8 @@ const VerticalNavbar = () => {
                 <img
                     src="/assets/icons/logout.png" 
                     alt="Logout"
+                    onClick={() => router.push("/")}
+
                     style={{ width: '18px', height: '18px' }}
                     className="flex-shrink-0"
                 />
