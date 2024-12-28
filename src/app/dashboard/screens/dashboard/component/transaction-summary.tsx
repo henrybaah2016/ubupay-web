@@ -33,7 +33,7 @@ const TransactionSummary = () => {
         },
     ];
 
-    const toggleDropdown = (id) => {
+    const toggleDropdown = (id:any) => {
         setDropdownVisible(dropdownVisible === id ? null : id);
     };
 
