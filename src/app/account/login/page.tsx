@@ -34,7 +34,7 @@ const Login = () => {
                     Welcome back! Send money to Africa again with UbuPay
                 </p>
 
-                <form onSubmit={handleSubmit}>
+                <form>
                     <div className="mb-4">
                         <input
                             type="email"

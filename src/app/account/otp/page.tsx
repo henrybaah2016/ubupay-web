@@ -52,7 +52,7 @@ const OTP = () => {
                         > hello@gmail.com</span>
                 </p>
 
-                <form onSubmit={handleSubmit}>
+                <form>
                     <div className="flex space-x-6 mb-4">
                         {otp.map((digit, index) => (
                             <input
