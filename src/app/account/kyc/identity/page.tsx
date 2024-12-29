@@ -30,7 +30,7 @@ const BasicInformation = () => {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        router.push("/dashboard/screens/dashboard");
+        router.push("/dashboard");
     };
     return (
         <div className="flex h-screen bg-[#FFFFFF]">

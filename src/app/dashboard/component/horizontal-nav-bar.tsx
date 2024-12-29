@@ -1,9 +1,13 @@
 import React from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const HorizontalNavbar = () => {
-        const router = useRouter();
-    
+    const router = useRouter();
+
+    const handleCreateTransactionClick = () => {
+        router.push("/dashboard/screens/create-transaction");
+    };
     return (
         <div className="flex items-center justify-between  p-4 mx-[30px]">
             <div className="flex items-center">
@@ -23,10 +27,12 @@ const HorizontalNavbar = () => {
 
 
             <div className="flex items-center space-x-6">
-                <button
-                    className="flex flex-row btn btn-normal items-center xl:btn-normal md:btn-normal font-semibold lg:btn-normal items-center  transition ease-out duration-500">
-                    Send
-                </button>
+                    <button
+                    onClick={handleCreateTransactionClick}
+                        className="flex flex-row btn btn-normal items-center xl:btn-normal md:btn-normal font-semibold lg:btn-normal items-center  transition ease-out duration-500">
+                        Send
+                    </button>
+
                 <div className="relative">
                     <img src="/assets/icons/notification.png" alt="Notification" className="w-auto h-5" />
                     <span className="absolute text-white font-semibold  bottom-2 left-2 bg-yellow text-white text-xs rounded-full px-[5px]">
