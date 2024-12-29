@@ -16,9 +16,10 @@ export default {
 
       },
       colors:{
-        primary:'#3E76DE',
-        secondary:'#2F5FB9',
-        yellow:"#FFBB2C"
+        primary:"#3E76DE",
+        secondary:"#2F5FB9",
+        yellow:"#FFBB2C",
+        dark:"#34342A"
       },
       fontFamily: {
         gilroy: ['Gilroy'],

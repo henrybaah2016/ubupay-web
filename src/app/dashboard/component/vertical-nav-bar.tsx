@@ -2,8 +2,9 @@ import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 const VerticalNavbar = () => {
-    const [activeIndex, setActiveIndex] = useState(0); 
-    const router = useRouter()
+    const [activeIndex, setActiveIndex] = useState(0);
+    const router = useRouter();
+
     const navItems = [
         {
             icon: "/assets/icons/home-white.png",
@@ -11,6 +12,7 @@ const VerticalNavbar = () => {
             label: "Dashboard",
             width: 18,
             height: 18,
+            path: "/dashboard", 
         },
         {
             icon: "/assets/icons/transaction-white.png",
@@ -18,6 +20,8 @@ const VerticalNavbar = () => {
             label: "Transaction",
             width: 24,
             height: 18,
+            path: "/transactions", 
+
         },
         {
             icon: "/assets/icons/card-white.png",
@@ -25,14 +29,20 @@ const VerticalNavbar = () => {
             label: "Card",
             width: 22,
             height: 18,
+            path: "/cards", 
+
         },
     ];
+
+    const handleNavClick = (index: number, path: string) => {
+        setActiveIndex(index); 
+        router.push(path); 
+    };
 
     return (
         <div className="bg-primary text-white h-screen w-60 px-4 flex flex-col items-start py-0">
             <div className="mb-8 px-4">
                 <img
-
                     src="/assets/images/logo-white.png"
                     alt="UbuPay"
                     onClick={() => router.push("/")}
@@ -43,7 +53,7 @@ const VerticalNavbar = () => {
             {navItems.map((item, index) => (
                 <div
                     key={index}
-                    onClick={() => setActiveIndex(index)} 
+                    onClick={() => handleNavClick(index, item.path)}
                     className={`flex items-center space-x-3 py-5 my-2 rounded-full cursor-pointer w-full px-4 ${activeIndex === index ? "bg-white text-primary" : "hover:bg-transparent"}`}
                 >
                     <img
@@ -53,9 +63,7 @@ const VerticalNavbar = () => {
                         className="flex-shrink-0"
                     />
                     <span
-                        className={`text-md ${
-                            activeIndex === index ? "text-[#91B4F5] font-semibold text-[#91B4F5]" : "text-white font-semibold"
-                        }`}
+                        className={`text-md ${activeIndex === index ? "text-[#91B4F5] font-semibold text-[#91B4F5]" : "text-white font-semibold"}`}
                     >
                         {item.label}
                     </span>
@@ -67,7 +75,6 @@ const VerticalNavbar = () => {
                     src="/assets/icons/logout.png" 
                     alt="Logout"
                     onClick={() => router.push("/")}
-
                     style={{ width: '18px', height: '18px' }}
                     className="flex-shrink-0"
                 />
