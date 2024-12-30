@@ -20,16 +20,16 @@ const VerticalNavbar = () => {
             label: "Transaction",
             width: 24,
             height: 18,
-            path: "/transactions", 
+            path: "/dashboard/screens/transaction", 
 
         },
         {
             icon: "/assets/icons/card-white.png",
             activeIcon: "/assets/icons/card-blue.png", 
-            label: "Card",
+            label: "Payment & Card",
             width: 22,
             height: 18,
-            path: "/cards", 
+            path: "/dashboard/screens/payment-card", 
 
         },
     ];
