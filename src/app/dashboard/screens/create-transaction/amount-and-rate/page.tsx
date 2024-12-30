@@ -2,12 +2,20 @@
 import React, { useState } from "react";
 import SenderAmountRate from "../component/sender-amount-rate";
 import ReceiverAmountRate from "../component/receiver-amount-rate";
+import { useRouter } from "next/navigation";
 
 const AmountAndRate = () => {
+    const router = useRouter();
+
+    const handleSubmit = (e: React.FormEvent) =>{
+        e.preventDefault();
+        router.push("/dashboard/screens/create-transaction/summary");
+    };
 
 
     return (
-        <div className=" mx-[120px]" >
+        <form onClick={handleSubmit}>
+             <div className=" mx-[120px]" >
             <span className="text-[16px] font-semibold  text-dark">Amount & Rates</span>
             <div className="p-6 rounded-[16px] px-[80px] mt-6 py-[40px] bg-[#F9F9F9]">
                 <span className="text-sm font-semibold  text-dark">Enter Amount</span>
@@ -26,6 +34,8 @@ const AmountAndRate = () => {
                 </button>
             </div>
         </div>
+        </form>
+       
 
     );
 };
