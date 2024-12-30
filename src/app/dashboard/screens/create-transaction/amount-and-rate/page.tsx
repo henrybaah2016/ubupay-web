@@ -12,13 +12,15 @@ const AmountAndRate = () => {
             <div className="p-6 rounded-[16px] px-[80px] mt-6 py-[40px] bg-[#F9F9F9]">
                 <span className="text-sm font-semibold  text-dark">Enter Amount</span>
 
-                <SenderAmountRate/>
+                <div className="flex flex-col space-y-8">
+                    <SenderAmountRate />
+                    <ReceiverAmountRate />
+                </div>
 
-                <ReceiverAmountRate/>
-                
+
                 <button
                     type="submit"
-                    className="w-full bg-primary  h-[55px] text-white py-3 mt-[30px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
+                    className="w-full bg-primary  h-[55px] text-white py-3 mt-[70px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
                 >
                     Next
                 </button>

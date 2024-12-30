@@ -60,7 +60,7 @@ const SenderAmountRate = () => {
 
                         </div>
 
-                        {dropdownVisible && (
+                        {/* {dropdownVisible && (
                             <div className="absolute top-full w-[200px]  left-0 w-full bg-white border border-gray-300 rounded-lg mt-1 z-10">
                                 {countries.map((country) => (
                                     <div
@@ -77,7 +77,7 @@ const SenderAmountRate = () => {
                                     </div>
                                 ))}
                             </div>
-                        )}
+                        )} */}
                     </div>
 
                 </div>
