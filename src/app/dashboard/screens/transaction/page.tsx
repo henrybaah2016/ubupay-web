@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 const TransactionSummary = () => {
-    const [activeTab, setActiveTab] = useState("all");
+    const [activeTab, setActiveTab] = useState<"all" | "transfer" | "received">("all");
 
     const data = [
         {
