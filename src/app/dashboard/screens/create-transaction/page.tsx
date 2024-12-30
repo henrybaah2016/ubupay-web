@@ -3,13 +3,15 @@ import React, { useState } from "react";
 import Momo from "./component/Momo";
 import Bank from "./component/bank";
 import PaymentMethodModal from "./component/payment-method-modal";
+import { useRouter } from "next/navigation";
 
 const CreateTransaction = () => {
     const [isSourceChecked, setIsSourceChecked] = useState(false);
     const [selectedReceiverMethod, setSelectedReceiverMethod] = useState("bank");
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [selectedMethod, setSelectedMethod] = useState("bank");
-
+    const router = useRouter()
+    
     const handleSourceCheck = () => {
         setIsSourceChecked(!isSourceChecked);
     };
@@ -18,9 +20,11 @@ const CreateTransaction = () => {
         setSelectedReceiverMethod(event.target.value);
     };
 
-    const handleSubmit = () => {
-        console.log("Transaction submitted!");
-    };
+   
+       const handleSubmit = (e: React.FormEvent) => {
+           e.preventDefault();
+           router.push("/dashboard/screens/create-transaction/amount-and-rate");
+       };
     const handleOpenModal = () => {
         setIsModalOpen(true);
     };
@@ -178,6 +182,7 @@ const CreateTransaction = () => {
 
 
                 <button
+                onClick={handleSubmit}
                     type="submit"
                     className="w-full bg-primary  h-[55px] text-white py-3 mt-[30px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
                 >
