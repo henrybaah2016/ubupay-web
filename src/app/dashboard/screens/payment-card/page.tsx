@@ -37,7 +37,7 @@ const PaymentCard = () => {
         setSelectedMethod(method);
     };
     return (
-        <div className="flex flex-col  space-y-4 mx-[120px]">
+        <div className="flex flex-col   mx-[120px]">
             <div className="flex justify-between items-center mb-6">
                 <h2 className="text-[18px] font-bold text-[#636464]">Bank & Cards</h2>
                 <div className="flex space-x-4">
