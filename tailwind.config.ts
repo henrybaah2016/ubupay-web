@@ -12,6 +12,7 @@ export default {
         'account-bg-1': "url('/assets/images/account-bg-1.png')",
         'account-bg-2': "url('/assets/images/account-bg-2.png')",
         'account-bg-3': "url('/assets/images/account-3.png')",
+        'profile-img': "url('/assets/images/profile.svg')",
 
 
       },

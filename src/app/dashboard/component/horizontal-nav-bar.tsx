@@ -8,6 +8,9 @@ const HorizontalNavbar = () => {
     const handleCreateTransactionClick = () => {
         router.push("/dashboard/screens/create-transaction");
     };
+    const handleProfileSettings = () => {
+        router.push("/dashboard/screens/profile");
+    };
     return (
         <div className="flex items-center justify-between  p-4 mx-[30px]">
             <div className="flex items-center">
@@ -45,7 +48,9 @@ const HorizontalNavbar = () => {
                     <img src="/assets/icons/arrow-down-dash.svg" alt="arrow" className="w-auto h-2" />
                 </div>
 
-                <div className="flex items-center space-x-3">
+                <div 
+                onClick={handleProfileSettings}
+                className="flex items-center space-x-3 cursor-pointer">
                     <img
                         src="/assets/images/profile.svg"
                         alt="Profile"
