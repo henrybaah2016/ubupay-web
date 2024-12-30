@@ -57,7 +57,7 @@ const BasicInformation = () => {
                 <p className="text-[#6C6C6C] font-semibold text-[14px] mb-8 mt-[20px]">
                     Please upload both sides of the identity card,  your ID should be valid and text should be readable and current else it will be rejected                </p>
 
-                <form onClick={handleSubmit} >
+                <form>
 
                     <div className="mb-4 relative">
                         <div className="flex w-full items-center bg-[#ECECEC] rounded-lg overflow-hidden">
@@ -115,6 +115,8 @@ const BasicInformation = () => {
                     </div>
                     <button
                         type="submit"
+                        onClick={handleSubmit}
+
                         className="w-full bg-primary  h-[55px] mb-8 text-white py-3 mt-[30px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
                     >
                         Submit

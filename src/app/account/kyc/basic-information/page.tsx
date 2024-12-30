@@ -61,7 +61,7 @@ const BasicInformation = () => {
                     Please the personal information should be entered as it appears on your legal document and government issued ID.
                 </p>
 
-                <form onClick={handleSubmit}>
+                <form >
                     <div className="mb-4 flex space-x-4">
                         <input
                             type="text"
@@ -154,6 +154,7 @@ const BasicInformation = () => {
                     </div>
                     <button
                         type="submit"
+                        onClick={handleSubmit}
                         className="w-full bg-primary  h-[55px] mb-8 text-white py-3 mt-[30px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
                     >
                         Continue
