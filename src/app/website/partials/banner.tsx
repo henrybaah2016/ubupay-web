@@ -1,3 +1,5 @@
+import ReceiverAmountRate from "@/app/dashboard/screens/create-transaction/component/receiver-amount-rate";
+import SenderAmountRate from "@/app/dashboard/screens/create-transaction/component/sender-amount-rate";
 import React from "react";
 
 const Banner = () => {
@@ -35,12 +37,28 @@ const Banner = () => {
                                         <p className="text-white font-semibold text-[12px] lg:text-lg xl:text-lg md:text-lg">App Store</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <div className="pt-6 lg:mt-[95px] xl:mb-[165px] md:pt-0 flex flex-col w-64 lg:w-[80%] md:w-[80%] xl:w-[80%] justify-center md:ml-0 lg:ml-20 md:ml-20 xl:ml-20">
-                        <img src="/assets/images/banner-img.png" alt="Phone" />
+                        <form>
+                            <div className=" mx-[50px]" >
+                                <div className="p-6 rounded-[16px] px-[20px] mt-6 py-[40px] bg-[#F9F9F9]">
+                                    <span className="text-[16px] font-semibold  text-dark">Make a transfer to Africa</span>
+
+                                    <div className="flex flex-col space-y-8">
+                                        <SenderAmountRate />
+                                        <ReceiverAmountRate />
+                                    </div>
+                                    <button
+                                        type="submit"
+                                        className="w-full bg-primary  h-[55px] text-white py-3 mt-[70px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
+                                    >
+                                        Continue
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
