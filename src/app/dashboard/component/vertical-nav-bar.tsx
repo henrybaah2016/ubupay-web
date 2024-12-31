@@ -75,8 +75,7 @@ const VerticalNavbar = () => {
                     src="/assets/icons/logout.png" 
                     alt="Logout"
                     onClick={() => router.push("/")}
-                    style={{ width: '18px', height: '18px' }}
-                    className="flex-shrink-0"
+                    className="flex-shrink-0 w-auto h-[16px]"
                 />
                 <span className="text-md text-white font-semibold">Logout</span>
             </div>
