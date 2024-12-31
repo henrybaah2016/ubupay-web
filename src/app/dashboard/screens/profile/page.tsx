@@ -13,6 +13,13 @@ const ProfileSettings = () => {
     }
 
 
+    const handlePayment = (e: React.FormEvent) => {
+        e.preventDefault();
+        router.push("/dashboard/screens/payment-card");
+    }
+
+
+
 
     return (
         <div className="flex flex-col   mx-[120px]">
@@ -68,6 +75,7 @@ const ProfileSettings = () => {
                         </div>
 
                         <div
+                            onClick={handlePayment}
                             className="flex items-center w-full p-6 justify-between rounded-[16px] px-[30px] cursor-pointer">
                             <div className="flex space-x-4 items-center" >
                                 <div className="w-12 h-12 flex items-center justify-center rounded-[6px] bg-[#ECECEC]">
