@@ -15,7 +15,7 @@ const Solution = () => {
                     <h1 className="text-[#34342A] xl:pr-[160px] pt-[50px] leading-tight lg:leading-[53px] xl:leading-[50px] xl:pb-[5px] md:pb-[10px] lg:pb-0 pb-[10px] pt-0 lg:pt-0 xl:pt-2 md:pt-[100px] lg:text-[20px] xl:text-[40px] font-bold text-2xl">
                         We support Africa's family, friends, businesses.
                     </h1>
-                    <p className="pt-2 xl:pr-[80px]  text-[#9F9F9F] text-[18px] leading-snug font-semibold md:text-[17px] xl:text-[17px] lg:text-[17px]">
+                    <p className="pt-2 xl:pr-[80px]  text-[#636464] text-[18px] leading-snug font-semibold md:text-[17px] xl:text-[17px] lg:text-[17px]">
                         UbuPay offers a holistic solution for users to support family, friends, and businesses in Africa, ensuring financial inclusion and empowerment.
                     </p>
                     <div className="flex flex-col mt-[20px]">
@@ -25,7 +25,7 @@ const Solution = () => {
                                 alt=""
                                 className="w-[18px] h-auto"
                             />
-                            <h4 className="ml-2 text-[#9F9F9F] text-[18px] leading-snug font-semibold md:text-[17px] xl:text-[17px] lg:text-[17px]">
+                            <h4 className="ml-2 text-[#636464] text-[18px] leading-snug font-semibold md:text-[17px] xl:text-[17px] lg:text-[17px]">
                                 Competitive Exchange Rates
                             </h4>
                         </div>
@@ -35,7 +35,7 @@ const Solution = () => {
                                 alt=""
                                 className="w-[18px] h-auto"
                             />
-                            <h4 className="ml-2 text-[#9F9F9F] text-[18px] leading-snug font-semibold md:text-[17px] xl:text-[17px] lg:text-[17px]">
+                            <h4 className="ml-2 text-[#636464] text-[18px] leading-snug font-semibold md:text-[17px] xl:text-[17px] lg:text-[17px]">
                                 Multi-Currency Support
                             </h4>
                         </div>
@@ -45,7 +45,7 @@ const Solution = () => {
                                 alt=""
                                 className="w-[18px] h-auto"
                             />
-                            <h4 className="ml-2 text-[#9F9F9F] text-[18px] leading-snug font-semibold md:text-[17px] xl:text-[17px] lg:text-[17px]">
+                            <h4 className="ml-2 text-[#636464] text-[18px] leading-snug font-semibold md:text-[17px] xl:text-[17px] lg:text-[17px]">
                                 Rewards and Loyalty Programs
                             </h4>
                         </div>
@@ -53,7 +53,7 @@ const Solution = () => {
 
 
                     <div className="pt-[0px] lg:pt-[0px]  z-10 relative ">
-                    <div className="flex  flex-col   xl:flex-row lg:flex-row md:flex-row mt-12 mb:mt-12 lg:mt-8 xl:mt-12 mx-0 lg:mx-4 xl:mx-2 md:mx-0 pb-10  xl:items-left xl:items-center lg:items-center md:items-center">
+                    <div className="flex flex-col xl:flex-row lg:flex-row md:flex-row mt-12 mb:mt-12 lg:mt-8 xl:mt-12 mx-0 lg:mx-4 xl:mx-2 md:mx-0 pb-10  xl:items-left xl:items-center lg:items-center md:items-center">
                                 <div
                                     className="flex items-center w-auto mb-4 xl:mb-0 lg:mb-0 md:mb-0  btn cursor-pointer btn-playstore  transition ease-out duration-500 ">
                                     <img src="../../assets/images/playstore.png" className="w-7 lg:w-6 xl:w-10 md:w-10" />

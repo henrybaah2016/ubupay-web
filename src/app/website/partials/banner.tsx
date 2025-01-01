@@ -15,14 +15,14 @@ const Banner = () => {
                         <h1 className="text-[#34342A] pt-[50px] leading-tight lg:leading-[43px] xl:leading-[73px] xl:pb-[30px] md:pb-[30px] lg:pb-4 pb-[30px] pt-0 lg:pt-[130px] xl:pt-[30px] md:pt-[100px] lg:text-[40px] xl:text-[60px] font-bold text-3xl">
                             Cross-border payment made easy
                         </h1>
-                        <p className="pt-2 text-[#9F9F9F] text-[18px] leading-snug font-semibold md:text-[22px] xl:text-[20px] lg:text-[22px]">
+                        <p className="pt-2 text-[#636464] text-[18px] leading-snug font-semibold md:text-[22px] xl:text-[20px] lg:text-[22px]">
                             Seamless, secure, and efficient money transfers from Canada<br /> to other African countries.
                         </p>
 
                         <div className="pt-[0px] lg:pt-[0px] z-10 relative w-full">
                             <div className="flex  flex-col   xl:flex-row lg:flex-row md:flex-row mt-12 mb:mt-12 lg:mt-8 xl:mt-12 mx-0 lg:mx-4 xl:mx-2 md:mx-0 pb-10  xl:items-left xl:items-center lg:items-center md:items-center">
                                 <div
-                                    className="flex items-center w-auto mb-4 xl:mb-0 lg:mb-0 md:mb-0  btn cursor-pointer btn-playstore  transition ease-out duration-500 ">
+                                    className="flex items-center w-[190px] md:w-auto lg:w-auto xl:w-auto mb-4 xl:mb-0 lg:mb-0 md:mb-0  btn cursor-pointer btn-playstore  transition ease-out duration-500 ">
                                     <img src="../../assets/images/playstore.png" className="w-7 lg:w-6 xl:w-10 md:w-10" />
                                     <div className="ml-2 md:ml-2 xl:ml-2 lg:ml-2">
                                         <h6 className="text-white font-semibold text-[14px] lg:text-xs xl:text-xs md:text-xs">GET IT ON</h6>
@@ -30,7 +30,7 @@ const Banner = () => {
                                     </div>
                                 </div>
                                 <div
-                                    className="flex items-center cursor-pointer w-auto btn ml-2 btn-appstore transition ease-out duration-500 ">
+                                    className="flex items-center  w-[190px] md:w-auto lg:w-auto xl:w-auto  cursor-pointer w-auto btn ml-2 btn-appstore transition ease-out duration-500 ">
                                     <img src="../../assets/images/appstore.png" className="w-7 lg:w-6 xl:w-8 md:w-8" />
                                     <div className="ml-2 md:ml-2 xl:2 lg:2">
                                         <h6 className="text-white font-semibold text-[14px] lg:text-xs xl:text-xs md:text-xs">Download on the </h6>
