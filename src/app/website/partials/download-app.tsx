@@ -15,15 +15,15 @@ const DownloadApp = () => {
                     <p className="text-white text-lg lg:text-xl xl:text-xl leading-snug font-semibold">
                         Send money to anyone in Africa using UbuPay. <br/>Download the app now
                     </p>
-                    <div className="flex space-x-4">
-                        <div className="flex items-center cursor-pointer btn-outline  p-4 rounded-lg">
+                    <div className="xl:flex lg:flex md:flex flex flex-col xl:flex-row lg:flex-row md:flex-row  xl:space-x-4 lg:space-x-4 md:space-x-4 ">
+                        <div className="flex items-center cursor-pointer btn-outline p-4 rounded-lg">
                             <img src="/assets/images/playstore.png" className="w-6 lg:w-8" alt="Play Store" />
                             <div className="ml-2">
                                 <h6 className="text-white text-xs">GET IT ON</h6>
                                 <p className="text-white text-sm lg:text-base font-semibold">Google Play</p>
                             </div>
                         </div>
-                        <div className="flex items-center cursor-pointer btn-outline   p-4 rounded-lg">
+                        <div className="flex items-center cursor-pointer btn-outline p-4 rounded-lg">
                             <img src="/assets/images/appstore.png" className="w-6 lg:w-8" alt="App Store" />
                             <div className="ml-2">
                                 <h6 className="text-white text-xs">Download on the</h6>

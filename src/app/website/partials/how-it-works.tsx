@@ -43,7 +43,7 @@ const HowItWorks = () => {
 
     return (
         <section className="bg-[#EAF1FF] mt-[10px] py-[0px] rounded-[26px]">
-            <div className="flex flex-col md:flex-row px-4 mx-[30px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px] space-x-[120px] pt-[70px] ">
+            <div className="flex flex-col md:flex-row px-4 mx-[0px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px] xl:space-x-[10px]  xl:space-x-[120px] lg:space-x-[120px] md:space-x-[160px] pt-[70px] ">
 
 
                 <div className="w-full xl:w-[55%] md:w-[55%]  lg:w-[55%] flex flex-col justify-center items-start  mb-6 md:mb-0">
