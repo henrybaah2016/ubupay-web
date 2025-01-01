@@ -12,14 +12,14 @@ import Header from "../layout/header";
 const Home = () => {
   return (
     <div>
-      <Header/>
-        <Banner />
-        <WhyUbupay/>
-        <Solution/>
-        <HowItWorks/>
-        <DownloadApp/>
-        <Footer/>
-      
+      <Header />
+      <Banner />
+      <WhyUbupay />
+      <Solution />
+      <HowItWorks />
+      <DownloadApp />
+      <Footer />
+
     </div>
   );
 };

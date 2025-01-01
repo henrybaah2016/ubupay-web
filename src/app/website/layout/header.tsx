@@ -10,7 +10,7 @@ const Header = () => {
 
 
   return (
-    <nav className="bg-white rounded-[100px] p-4 mx-[30px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px]  mt-[20px]  xl:mt-[40px] md:mt-[40px] lg:mt-[40px] flex items-center justify-between">
+    <nav className="bg-white rounded-[100px] p-4 mx-[10px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px]  mt-[20px]  xl:mt-[40px] md:mt-[40px] lg:mt-[40px] flex items-center justify-between">
       <div className="flex items-center">
         <img
           src="assets/images/logo.png"
