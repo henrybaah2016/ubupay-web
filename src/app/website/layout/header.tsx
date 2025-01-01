@@ -4,23 +4,32 @@ import { useState } from "react";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
   const router = useRouter();
-  
-
-
 
   return (
-    <nav className="bg-white rounded-[100px] p-4 mx-[10px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px]  mt-[20px]  xl:mt-[40px] md:mt-[40px] lg:mt-[40px] flex items-center justify-between">
+    <nav className="bg-white rounded-[100px] p-4 mx-[10px] xl:mx-[70px] lg:mx-[30px] mt-[20px] xl:mt-[40px] lg:mt-[40px] flex items-center justify-between">
       <div className="flex items-center">
         <img
           src="assets/images/logo.png"
           alt="Logo"
           onClick={() => router.push("/")}
-          className="xl:h-16 lg:h-16 md:h-16 h-10 cursor-pointer w-auto xl:ml-[16px] lg:ml-[10px] md:ml-[10px] ml-[10px]"
+          className="xl:h-16 lg:h-16 h-10 cursor-pointer w-auto xl:ml-[16px] lg:ml-[10px] ml-[10px]"
         />
       </div>
 
-      <div className="hidden md:flex space-x-10 items-center">
+      <button
+        className="lg:hidden flex items-center"
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
+        <img
+          src="assets/icons/menu.svg"
+          alt="Menu"
+          className="w-auto h-5 mr-[10px] cursor-pointer"
+        />
+      </button>
+
+      <div className="hidden lg:flex flex-row justify-center items-center space-x-10">
         <a
           href="#home"
           className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
@@ -33,21 +42,18 @@ const Header = () => {
         >
           Why UbuPay?
         </a>
-
         <div className="relative">
           <button
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
             className="flex items-center text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
           >
-
             Resources
             <img
               src="assets/icons/dropdown.svg"
               alt=""
-              className="w-[14px] h-auto ml-2 xl:contain"
+              className="w-[14px] h-auto ml-2"
             />
           </button>
-
           {isDropdownOpen && (
             <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg">
               <a
@@ -56,31 +62,83 @@ const Header = () => {
               >
                 FAQs
               </a>
-
             </div>
           )}
         </div>
       </div>
 
-      <div className="flex items-center space-x-8 xl:mr-[16px]">
+      {isMenuOpen && (
+        <div className="fixed inset-0 bg-white z-50 flex flex-col p-6">
+          <div className="flex justify-end">
+            <button
+              className="text-[#34342A] font-semibold text-xl"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              ✕
+            </button>
+          </div>
+          <div className="flex flex-col mt-6 space-y-4">
+            <a
+              href="#home"
+              className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Home
+            </a>
+            <a
+              href="#why-ubupay"
+              className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Why UbuPay?
+            </a>
+            <a
+              href="#resources"
+              className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Resources
+            </a>
+            <a
+              href="#1"
+              onClick={() => {
+                router.push("/account/login");
+                setIsMenuOpen(false);
+              }}
+              className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+            >
+              Login
+            </a>
+            <button
+              className="flex flex-row w-[150px] h-[60px] btn btn-normal xl:btn-normal mt-4 font-semibold items-center transition ease-out duration-500"
+              onClick={() => {
+                router.push("/account/signup");
+                setIsMenuOpen(false);
+              }}
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+      )}
+
+      <div className="hidden lg:flex items-center space-x-8 xl:mr-[16px]">
         <a
           href="#1"
           onClick={() => router.push("/account/login")}
-
           className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
         >
           Login
         </a>
         <button
-          className="flex flex-row btn btn-normal xl:btn-normal md:btn-normal font-semibold lg:btn-normal items-center  transition ease-out duration-500"
+          className="flex flex-row btn btn-normal xl:btn-normal font-semibold items-center transition ease-out duration-500"
           onClick={() => router.push("/account/signup")}
-
         >
           Sign up
         </button>
       </div>
     </nav>
-  )
-}
+  );
+};
 
 export default Header;
