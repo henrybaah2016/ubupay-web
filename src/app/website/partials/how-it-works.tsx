@@ -43,11 +43,11 @@ const HowItWorks = () => {
 
     return (
         <section className="bg-[#EAF1FF] mt-[10px] py-[0px] rounded-[26px]">
-            <div className="flex flex-col md:flex-row px-4 mx-[0px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px] xl:space-x-[10px]  xl:space-x-[120px] lg:space-x-[120px] md:space-x-[160px] pt-[70px] ">
+            <div className="flex flex-col md:flex-col xl:flex-row lg:flex-row md:flex-row px-4 mx-[0px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px] xl:space-x-[10px]  xl:space-x-[120px] lg:space-x-[120px] md:space-x-[160px] pt-[70px] ">
 
 
-                <div className="w-full xl:w-[55%] md:w-[55%]  lg:w-[55%] flex flex-col justify-center items-start  mb-6 md:mb-0">
-                    <h1 className="text-[#34342A] xl:pr-[160px] pt-[50px] leading-tight lg:leading-[53px] xl:leading-[50px] xl:pb-[5px] md:pb-[10px] lg:pb-0 pb-[10px] pt-0 lg:pt-0 xl:pt-2 md:pt-[100px] lg:text-[20px] xl:text-[40px] font-bold text-2xl">
+                <div className="w-full xl:w-[55%] md:w-full  lg:w-[55%] flex flex-col justify-center items-start  mb-6 md:mb-0">
+                    <h1 className="text-[#34342A] xl:pr-[160px] md:pr-[100px] pt-[50px] leading-tight lg:leading-[53px] xl:leading-[50px] xl:pb-[5px] md:pb-[10px] lg:pb-0 pb-[10px] pt-0 lg:pt-0 xl:pt-2 md:pt-[100px] lg:text-[40px] md:text-[40px] xl:text-[40px] font-bold text-2xl">
                         Get Started with UbuPay Effortlessly
                     </h1>
                     <p className="pt-2 xl:pr-[80px]  text-[#9F9F9F] text-[18px] leading-snug font-semibold md:text-[17px] xl:text-[17px] lg:text-[17px]">
@@ -110,7 +110,7 @@ const HowItWorks = () => {
 
                 </div>
 
-                <div className="pt-6 lg:mt-[95px] xl:mb-[0px] md:pt-0 flex flex-col w-full lg:w-[45%] md:w-[45%] xl:w-[45%] justify-center md:ml-0 lg:ml-20 md:ml-20 xl:ml-20">
+                <div className="pt-6 lg:mt-[95px] xl:mb-[0px] md:pt-8 flex flex-col w-full lg:w-[45%] md:w-[55%] xl:w-[45%] justify-center md:ml-0 lg:ml-20 md:ml-20 xl:ml-20">
                     <img src="/assets/images/mockup-2.png" alt="Phone" />
                 </div>
 
