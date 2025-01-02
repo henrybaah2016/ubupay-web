@@ -2,14 +2,14 @@ import React from "react";
 
 const DownloadApp = () => {
     return (
-        <section className="bg-[#F6F9FF] xl:py-[200px] md:py-[200px] lg:py-[200px] py-[100px]">
+        <section className="bg-[#F6F9FF] xl:py-[200px] md:py-[100px] lg:py-[200px] py-[100px]">
             <div className="bg-primary mx-[30px] xl:mx-[100px] mt-[40px] py-[10px] rounded-[36px] relative">
-                <div className="absolute top-[-80px] left-[-0px] xl:left-[-10px] w-full xl:w-[45%] hidden md:block">
+                <div className="absolute top-[-80px] left-[-0px] xl:left-[-10px] lg:left-[-10px] md:left-[-10px]  w-full xl:w-[45%]  lg:w-[45%] md:w-[45%] hidden md:hidden xl:block lg:block">
                     <img src="/assets/images/mockup-3.png" alt="Phone" className="w-full xl:show h-auto" />
                 </div>
 
 
-                <div className="flex flex-col items-start px-6 lg:px-12 xl:px-16 py-12 space-y-6 ml-auto w-full lg:w-[60%]">
+                <div className="flex flex-col items-start px-6 lg:px-12 xl:px-16 py-12 space-y-6 ml-auto w-full lg:w-[60%] xl:w-[60%] md:w-full">
                     <h1 className="text-white font-bold text-2xl lg:text-3xl xl:text-4xl">
                         Download App
                     </h1>
