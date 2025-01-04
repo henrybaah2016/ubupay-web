@@ -30,13 +30,14 @@ const Banner = () => {
                                     </div>
                                 </div>
                                 <div
-                                    className="flex items-center  w-[190px] md:w-auto lg:w-auto xl:w-auto  cursor-pointer w-auto btn ml-2 btn-appstore transition ease-out duration-500 ">
-                                    <img src="../../assets/images/appstore.png" className="w-7 lg:w-6 xl:w-8 md:w-8" />
-                                    <div className="ml-2 md:ml-2 xl:2 lg:2">
-                                        <h6 className="text-white font-semibold text-[14px] lg:text-xs xl:text-xs md:text-xs">Download on the </h6>
+                                    className="flex items-center w-[190px] md:w-auto lg:w-auto xl:w-auto mb-4 xl:mb-0 lg:mb-0 md:mb-0  btn cursor-pointer btn-appstore  transition ease-out duration-500 ">
+                                    <img src="../../assets/images/appstore.png" className="w-7 lg:w-6 xl:w-10 md:w-10" />
+                                    <div className="ml-2 md:ml-2 xl:ml-2 lg:ml-2">
+                                        <h6 className="text-white font-semibold text-[14px] lg:text-xs xl:text-xs md:text-xs">Download on the</h6>
                                         <p className="text-white font-semibold text-[16px] lg:text-lg xl:text-lg md:text-lg">App Store</p>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
