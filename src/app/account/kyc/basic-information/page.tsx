@@ -82,13 +82,12 @@ const BasicInformation = () => {
                     </div>
 
                     <div className="mb-4">
-                        <DatePicker
-                            selected={selectedDate}
-                            onChange={(date: Date | null) => setSelectedDate(date)}
-                            placeholderText="Date of Birth"
-                            popperClassName="custom-datepicker-popper"
+                        <input
+                            type="text"
+                            placeholder="Date of Birth"
                             className="w-full px-4 py-3 h-[55px] text-[#6c6c6c] placeholder-[#6c6c6c] font-semibold placeholder-[14px] text-[14px] bg-[#ECECEC] rounded-lg focus:outline-none"
                         />
+
                     </div>
                     <div className="mb-4 relative">
                         <div className="flex w-full items-center bg-[#ECECEC] rounded-lg overflow-hidden">
