@@ -9,10 +9,11 @@ const SenderAmountRate = () => {
             flag: "/assets/images/ca.png",
         });
     
-        const countries = [
+        const countries = [    
             {  name: "CA", flag: "/assets/images/ca.png" },
-    
-    
+            {  name: "USA", flag: "/assets/images/usa.png" },
+            {  name: "EU", flag: "/assets/images/euro.png" },
+            {  name: "UK", flag: "/assets/images/uk.png" },
         ];
     
         const toggleDropdown = () => {
@@ -60,7 +61,7 @@ const SenderAmountRate = () => {
 
                         </div>
 
-                        {/* {dropdownVisible && (
+                        {dropdownVisible && (
                             <div className="absolute top-full w-[200px]  left-0 w-full bg-white border border-gray-300 rounded-lg mt-1 z-10">
                                 {countries.map((country) => (
                                     <div
@@ -77,7 +78,7 @@ const SenderAmountRate = () => {
                                     </div>
                                 ))}
                             </div>
-                        )} */}
+                        )}
                     </div>
 
                 </div>

@@ -50,7 +50,7 @@ const OTP = () => {
                         > hello@gmail.com</span>
                 </p>
 
-                <form onClick={handleSubmit}>
+                <form>
                     <div className="flex space-x-2 mb-4">
                         {otp.map((digit, index) => (
                             <input
@@ -67,7 +67,7 @@ const OTP = () => {
 
                     <button
                         type="submit"
-                        
+                        onClick={handleSubmit}
                         className="w-full bg-primary h-[55px] text-white py-3 mt-[90px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
                     >
                         Verify OTP
