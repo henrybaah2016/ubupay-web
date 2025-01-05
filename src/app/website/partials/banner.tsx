@@ -42,8 +42,8 @@ const Banner = () => {
                     </div>
                     <div className="pt-6  mt-[12px]  lg:mt-[95px]  xl:mb-[0px] md:pt-0 flex  flex-col w-full lg:w-full md:w-[80%] xl:w-full justify-center ml-0 lg:ml-20 md:ml-0 xl:ml-20">
                         <form>
-                            <div className=" mx-[0px] xl:mx-[40px] lg:mx-[0px] md:mx-[0px]" >
-                                <div className="p-6 rounded-[16px] px-[10px] lg:px-[30px] mt-6 py-[40px]  bg-[#F9F9F9]">
+                            <div className=" mx-[0px] xl:mx-[30px] lg:mx-[0px] md:mx-[0px]" >
+                                <div className="p-6 rounded-[16px] px-[10px] lg:px-[30px] mt-6 py-[40px] border-[1px] border-primary bg-[#F9F9F9]">
                                     <span className="text-[16px] font-semibold items-center w-full  text-dark">Make a transfer to Africa </span>
 
                                     <div className="flex flex-col space-y-8">

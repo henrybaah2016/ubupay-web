@@ -36,14 +36,11 @@ const BasicInformation = () => {
         router.push("/account/kyc/identity");
     };
     return (
-        <div className="flex h-screen bg-[#FFFFFF]">
-            <div
-                className="w-[40%] bg-account-bg-3 rounded-[20px] xl:mx-10 xl:my-4 bg-cover flex flex-col justify-between p-4"
-            >
+        <div className="flex h-screen bg-[#FFFFFF] px-0 md:px-0 xl:px-0 lg:px-0 xl:flex-row lg:flex-row md:flex-col flex-col">
+            <div className="w-full xl:w-[40%] lg:w-[40%] md:w-full bg-account-bg-3 xl:rounded-[20px] lg:rounded-[20px] md:rounded-[0px] rounded-[0px] xl:mx-10 lg:mx-10 md:mx-0 mx-0  xl:my-4 xl:py-0 lg:py-0 py-8 md:py-8 bg-cover flex flex-col justify-between p-4">
                 <div
                     onClick={() => router.push("/")}
-                    className="flex items-center cursor-pointer mt-[20px] ml-[20px] space-x-2"
-                >
+                    className="flex items-center cursor-pointer mt-[20px] ml-[20px] space-x-2">
                     <img
                         src="/assets/icons/arrow-back.png"
                         alt="Icon"
@@ -55,7 +52,8 @@ const BasicInformation = () => {
                 </div>
             </div>
 
-            <div className="w-[60%] flex flex-col justify-center xl:pr-[150px] xl:pl-[50px] overflow-y-auto h-full">
+
+            <div className="w-full xl:w-[60%] lg:w-[60%] md:w-full flex flex-col justify-center px-4 xl:px-0 lg:px-0 md:px-[60px] pt-[200px] xl:pt-[0px] lg:pt-[0px] md:pt-[200px] xl:pr-[150px] xl:pl-[50px] overflow-y-auto h-full">
                 <h1 className="text-[25px] font-bold text-[#34342A] mt-[120px]">Personal Information</h1>
                 <p className="text-[#6C6C6C] font-semibold text-[14px] mb-8 mt-[20px]">
                     Please the personal information should be entered as it appears on your legal document and government issued ID.
