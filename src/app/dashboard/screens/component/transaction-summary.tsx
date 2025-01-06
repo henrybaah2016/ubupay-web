@@ -112,7 +112,7 @@ const TransactionSummary = () => {
                 </tbody>
             </table>
 
-            <div className="md:hidden space-y-4">
+            <div className="md:hidden  space-y-4">
                 {data.map((row) => (
                     <div
                         key={row.id}
