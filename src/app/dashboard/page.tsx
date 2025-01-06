@@ -4,8 +4,8 @@ import DashboardSummary from "./screens/dashboard-summary/page";
 
 const Dashboard = () => {
     return (
-        <div></div>
-        // <DashboardSummary/>
+        
+        <DashboardSummary/>
     );
 };
 
