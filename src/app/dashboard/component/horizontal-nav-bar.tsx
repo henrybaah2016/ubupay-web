@@ -12,14 +12,14 @@ const HorizontalNavbar = () => {
     };
 
     return (
-        <div className="flex flex-row items-center md:flex-row xl:justify-between lg:justify-between md:justify-between justify-between w-full p-4 xl:px-[50px] md:space-y-0">
+        <div className="flex flex-row items-center md:flex-row xl:justify-between lg:justify-between md:justify-between justify-between w-full p-4 xl:px-[50px]  md:space-y-0">
             <button
                     onClick={handleCreateTransactionClick}
                     className="flex items-center btn btn-normal-sm font-medium xl:font-semibold md:font-semibold lg:font-semibold text-[12px] xl:text-[16px] lg:text-[16px] md:text-[16px] text-white transition duration-300"
                 >
                     Send
                 </button>
-            <div className="flex items-center justify-center md:justify-end space-x-4 w-full md:w-auto">
+            <div className="flex items-center justify-end md:justify-end space-x-3 w-full md:w-auto">
                 
 
                 <div className="relative">
