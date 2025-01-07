@@ -9,9 +9,9 @@ const AddVisa = () => {
     };
 
     return (
-        <div className="mx-[120px]">
+        <div className="mx-[0px] xl:mx-[120px] lg:mx-[120px] md:mx-[120px]">
             <span className="text-[16px] font-semibold text-dark">Add Visa Card</span>
-            <div className="p-6 rounded-[16px] px-[80px] mt-6 py-[40px] bg-[#F9F9F9]">
+            <div className="p-6 rounded-[16px] px-[10px] xl:px-[80px] lg:px-[80px] md:px-[80px] mt-2 xl:mt-6 lg:mt-6 md:mt-6 py-[40px] bg-[#F9F9F9]">
                 <span className="text-sm font-semibold text-dark">Provide your card information</span>
 
                 <div className="flex items-center space-x-4 mt-4 justify-between rounded-[16px]">
@@ -47,7 +47,7 @@ const AddVisa = () => {
 
                         <div className="flex items-center space-x-3 ml-2">
                             <div
-                                className={`w-5 h-5 rounded-full flex items-center justify-center cursor-pointer ${isChecked ? "bg-yellow" : " border-[2px] border-yellow "
+                                className={`w-4 h-4 xl:w-5 xl:h-5 lg:w-5 lg:h-5 md:w-5 md:h-5 rounded-full flex items-center justify-center cursor-pointer ${isChecked ? "bg-yellow" : " border-[2px] border-yellow "
                                     }`}
                                 onClick={toggleChecked}
                             >
@@ -55,11 +55,11 @@ const AddVisa = () => {
                                     <img
                                         src="/assets/icons/checked.png"
                                         alt="Checked"
-                                        className="w-auto h-5"
+                                        className="w-4 h-4 xl:h-5 xl:w-5 lg:w-5 lg:h-5 md:w-5 md:h-5"
                                     />
                                 )}
                             </div>
-                            <span className="text-[14px] font-semibold text-[#6c6c6c]">
+                            <span className="text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] font-semibold text-[#6c6c6c]">
                                 Set as default source account
                             </span>
                         </div>

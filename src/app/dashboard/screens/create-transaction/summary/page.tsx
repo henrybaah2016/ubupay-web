@@ -61,7 +61,7 @@ const Summary = () => {
                 </div>
 
 
-                <div className="flex  flex-col px-[30px] mt-[30px] py-[20px] bg-[#F9F9F9] ">
+                <div className="flex  flex-col px-[0px] xl:px-[30px] lg:px-[30px] md:px-[30px] mt-[30px] py-[20px] bg-[#F9F9F9] ">
                     <div className="flex justify-between py-2 px-8">
                         <span className="text-[14px] font-semibold  text-[#A5A5A5]">Total Transfer</span>
                         <span className="text-[14px] font-semibold  text-dark">20004.5 CAD</span>
