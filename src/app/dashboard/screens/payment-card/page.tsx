@@ -53,24 +53,27 @@ const PaymentCard = () => {
                 </div>
             </div>
             <PaymentMethodModal isOpen={isModalOpen} onClose={handleCloseModal}>
-                <div className="flex flex-col space-y-2">
-                    <div>
+                <div className="flex flex-col space-y-2
+                
+                ">
+                    <div className="">
                         <div
                             onClick={handleAddBank}
                             className="flex items-center p-6 justify-between rounded-[16px] px-[30px] bg-[#ffffff] cursor-pointer"
 
                         >
                             <div className="flex space-x-4">
-                                <div className="w-12 h-12 flex items-center justify-center rounded-[6px] bg-[#ECECEC]">
+                                <div className="w-10 h-10 xl:w-12 xl:h-12 lg:w-12 lg:h-12 md:w-12 md:h-12  flex items-center justify-center rounded-[6px] bg-[#ECECEC]">
                                     <img src="/assets/images/bank.png" alt="Bank Account" className="w-auto h-6 p-[2px]" />
                                 </div>
                                 <div className="flex flex-col">
-                                    <span className="text-[16px] text-[#6C6C6C] font-semibold">Bank Account</span>
-                                    <span className="text-[14px] font-semibold text-[#A5A5A5]">0013 ************980</span>
+                                    <span className="text-[12px] xl:text-[16px] lg:text-[16px] md:text-[16px] text-[#6C6C6C] font-semibold">Bank Account</span>
+                                    <span className="text-[10px] xl:text-[14px] lg:text-[14px] md:text-[14px] font-semibold text-[#A5A5A5]">0013 ************980</span>
+                
                                 </div>
                             </div>
 
-                            <img src="/assets/icons/arrow-forward.png" alt="Checked" className="w-auto h-3" />
+                            <img src="/assets/icons/arrow-forward.png" alt="Checked" className="w-auto h-[12px] xl:w-auto xl:h-3 lg:w-auto lg:h-3 md:w-auto md:h-3" />
 
                         </div>
                         <div className="border-b border-gray-100 mx-[30px]"></div>
@@ -84,16 +87,16 @@ const PaymentCard = () => {
 
                         >
                             <div className="flex space-x-4">
-                                <div className="w-12 h-12 flex items-center justify-center rounded-[6px] bg-[#ECECEC]">
+                                <div className="w-10 h-10 xl:w-12 xl:h-12 lg:w-12 lg:h-12 md:w-12 md:h-12  flex items-center justify-center rounded-[6px] bg-[#ECECEC]">
                                     <img src="/assets/images/visa.png" alt="Visa" className="w-auto h-4 p-[2px]" />
                                 </div>
                                 <div className="flex flex-col">
-                                    <span className="text-[16px] text-[#6C6C6C] font-semibold">Visa</span>
-                                    <span className="text-[14px] font-semibold text-[#A5A5A5]">9343 **** **** 2455</span>
+                                    <span className="text-[12px] xl:text-[16px] lg:text-[16px] md:text-[16px] text-[#6C6C6C] font-semibold">Visa</span>
+                                    <span className="text-[10px] xl:text-[14px] lg:text-[14px] md:text-[14px] font-semibold text-[#A5A5A5]">9343 **** **** 2455</span>
                                 </div>
                             </div>
 
-                            <img src="/assets/icons/arrow-forward.png" alt="Checked" className="w-auto h-3" />
+                            <img src="/assets/icons/arrow-forward.png" alt="Checked" className="w-auto h-[12px] xl:w-auto xl:h-3 lg:w-auto lg:h-3 md:w-auto md:h-3" />
 
                         </div>
                         <div className="border-b border-gray-100 mx-[30px]"></div>
@@ -106,16 +109,16 @@ const PaymentCard = () => {
                             className="flex items-center p-6 justify-between rounded-[16px] px-[30px] bg-[#ffffff] cursor-pointer"
                         >
                             <div className="flex space-x-4">
-                                <div className="w-12 h-12 flex items-center justify-center rounded-[6px] bg-[#ECECEC]">
+                                <div className="w-10 h-10 xl:w-12 xl:h-12 lg:w-12 lg:h-12 md:w-12 md:h-12  flex items-center justify-center rounded-[6px] bg-[#ECECEC]">
                                     <img src="/assets/images/mastercard.png" alt="MasterCard" className="w-auto h-5 p-[2px]" />
                                 </div>
                                 <div className="flex flex-col">
-                                    <span className="text-[16px] text-[#6C6C6C] font-semibold">MasterCard</span>
-                                    <span className="text-[14px] font-semibold text-[#A5A5A5]">3043 **** **** 7859</span>
+                                    <span className="text-[12px] xl:text-[16px] lg:text-[16px] md:text-[16px] text-[#6C6C6C] font-semibold">MasterCard</span>
+                                    <span className="text-[10px] xl:text-[14px] lg:text-[14px] md:text-[14px] font-semibold text-[#A5A5A5]">3043 **** **** 7859</span>
                                 </div>
                             </div>
 
-                            <img src="/assets/icons/arrow-forward.png" alt="Checked" className="w-auto h-3" />
+                            <img src="/assets/icons/arrow-forward.png" alt="Checked" className="w-auto h-[12px] xl:w-auto xl:h-3 lg:w-auto lg:h-3 md:w-auto md:h-3" />
 
                         </div>
                     </div>
