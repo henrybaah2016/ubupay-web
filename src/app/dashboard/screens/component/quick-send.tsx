@@ -30,12 +30,11 @@ const QuickSend = () => {
                 </h6>
             </div>
 
-            
-            <div className="flex flex-wrap justify-start gap-4 sm:gap-6 md:gap-8 lg:gap-10 mt-4 sm:mt-6 md:mt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-10 mt-4 sm:mt-6 md:mt-8">
                 {senders.map((sender, index) => (
                     <div
                         key={index}
-                        className={`flex items-center w-full sm:w-[200px] md:w-[220px] lg:w-[250px] px-4 py-4 sm:py-6 rounded-lg text-white ${sender.color}`}
+                        className={`flex items-center w-full px-4 py-4 sm:py-6 rounded-lg text-white ${sender.color}`}
                     >
                         <img
                             src={sender.image}
