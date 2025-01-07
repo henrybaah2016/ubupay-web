@@ -11,7 +11,7 @@ const PaymentMethodModal: React.FC<ModalProps> = ({ isOpen, onClose, children })
 
     return (
         <div
-            className="fixed w-full inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+            className="fixed w-full px-6 xl:px-0 lg:px-0 md:px-0  inset-0  bg-black bg-opacity-50 flex justify-center items-center z-50"
             onClick={onClose}
         >
             <div
