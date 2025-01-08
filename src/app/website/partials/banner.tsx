@@ -5,7 +5,7 @@ import React from "react";
 const Banner = () => {
     return (
 
-        <div className="flex flex-col items-center lg:mt-0 mt-[480px] px-[20px] xl:px-[20px] lg:px-[0px] xl:px-[40px]  md:mt-[350px] lg:mt-[20px] xl:mt-[20px] md:flex-col lg:flex-col xl:flex-col justify-center md:justify-center lg:justify-center xl:justify-center w-full xl:w-full lg:w-full h-[650px] xl:h-[600px] lg:h-[500px]">
+        <div className="flex flex-col items-center lg:mt-0 mt-[550px] px-[20px] xl:px-[20px] lg:px-[0px] xl:px-[40px]  md:mt-[400px] lg:mt-[20px] xl:mt-[20px] md:flex-col lg:flex-col xl:flex-col justify-center md:justify-center lg:justify-center xl:justify-center w-full xl:w-full lg:w-full h-[650px] xl:h-[600px] lg:h-[500px]">
             <div
                 id="solution"
                 className="h-full flex items-center lg:px-[0px] w-full pt-12 lg:pt-[100px]  lg:mb-[120px] xl:pt-[150px] md:pt-14"
@@ -37,29 +37,43 @@ const Banner = () => {
                                         <p className="text-white font-semibold text-[16px] lg:text-lg xl:text-lg md:text-lg">App Store</p>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
-                    <div className="pt-6  mt-[12px]  lg:mt-[95px]  xl:mb-[0px] md:pt-0 flex  flex-col w-full lg:w-full md:w-[80%] xl:w-full justify-center ml-0 lg:ml-20 md:ml-0 xl:ml-20">
+                    <div className="pt-6  mt-[12px]  lg:mt-[95px]   xl:mb-[0px] md:pt-0 flex  flex-col w-full lg:w-full md:w-[80%] xl:w-full justify-center ml-0 lg:ml-20 md:ml-0 xl:ml-20">
                         <form>
-                            <div className=" mx-[0px] xl:mx-[30px] lg:mx-[0px] md:mx-[0px]" >
+                            <div className="mx-[0px] xl:mx-[30px] lg:mx-[0px] md:mx-[0px]">
                                 <div className="p-6 rounded-[16px] px-[10px] lg:px-[30px] mt-6 py-[40px] border-[1px] border-primary bg-[#F9F9F9]">
-                                    <span className="text-[16px] font-semibold items-center w-full  text-dark">Make a transfer to Africa </span>
+                                    <span className="text-[16px] font-semibold items-center w-full text-dark">
+                                        Make a transfer to Africa
+                                    </span>
 
                                     <div className="flex flex-col space-y-8">
                                         <SenderAmountRate />
                                         <ReceiverAmountRate />
+
+                                        <div className="flex justify-between items-center px-3">
+                                            <span className="text-[14px] font-semibold text-gray-700 mb-2">
+                                                Convertion Rate
+                                            </span>
+                                            <p className="text-[14px] font-semibold text-gray-700 mb-2">
+                                                1 USD = 600 NGN
+                                            </p>
+                                        </div>
                                     </div>
+
+
                                     <button
                                         type="submit"
-                                        className="w-full bg-primary  h-[55px] text-white py-3 mt-[70px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
+                                        className="w-full bg-primary h-[55px] text-white py-3 mt-[70px] rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
                                     >
                                         Continue
                                     </button>
                                 </div>
                             </div>
                         </form>
+
                     </div>
                 </div>
             </div>
