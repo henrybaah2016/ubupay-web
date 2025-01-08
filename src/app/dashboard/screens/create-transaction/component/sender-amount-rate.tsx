@@ -16,6 +16,7 @@ const SenderAmountRate = () => {
             {  name: "UK", flag: "/assets/images/uk.png" },
         ];
     
+        
         const toggleDropdown = () => {
             setDropdownVisible(!dropdownVisible);
         };
