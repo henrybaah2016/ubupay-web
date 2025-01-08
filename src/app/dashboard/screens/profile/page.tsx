@@ -22,14 +22,14 @@ const ProfileSettings = () => {
 
 
     return (
-        <div className="flex flex-col   mx-[120px]">
+        <div className="flex flex-col mx-[0px] xl:mx-[120px] lg:mx-[120px] md:mx-[120px]">
             <div className="flex justify-between  mb-6">
                 <h2 className="text-[18px] font-bold text-[#636464]">Profile Settings</h2>
 
             </div>
 
-            <div className="flex flex-col bg-[#F9F9F9] px-[60px] py-[60px] rounded-lg p-4">
-                <div className="bg-[#ffffff] px-[30px] py-[30px] rounded-lg p-4 ">
+            <div className="flex flex-col bg-[#F9F9F9] px-[20px] xl:px-[60px] lg:px-[60px] md:px-[60px] py-[20px] xl:py-[60px]  lg:py-[60px]  md:py-[60px]  rounded-lg p-4">
+                <div className="bg-[#ffffff] px-[0px] xl:px-[30px] lg:px-[30px] md:px-[30px] py-[30px] rounded-lg p-4 ">
 
                     <div className="flex flex-col space-y-6">
                         <div className="flex flex-col items-center space-y-4 p-6">
@@ -51,16 +51,16 @@ const ProfileSettings = () => {
                     </div>
 
                 </div>
-                <div className="flex justify-between py-2 bg-[#ffffff] px-[40px] rounded-lg py-[40px] mt-[50px]">
+                <div className="flex justify-between py-2 bg-[#ffffff] px-[20px] xl:px-[40px] lg:px-[40px] md:px-[40px] rounded-lg py-[20px] xl:py-[40px] lg:py-[40px] md:py-[40px] mt-[50px]">
                     <span className="text-[14px] font-semibold  text-[#A5A5A5]">Total Transaction</span>
                     <span className="text-[16px] font-semibold  text-dark">20004.5 CAD</span>
                 </div>
 
-                <div className="flex justify-between py-2 bg-[#ffffff] px-[40px] rounded-lg py-[40px] mt-[50px]">
+                <div className="flex justify-between py-2 bg-[#ffffff] px-[10px] xl:px-[40px] lg:px-[40px] md:px-[40px] rounded-lg py-[0px] xl:py-[40px] lg:py-[40px] md:py-[40px] mt-[50px]">
                     <div className="flex flex-col space-y-2 w-full">
                         <div
                             onClick={handleProfilUpdate}
-                            className="flex items-center w-full p-6 justify-between rounded-[16px] px-[30px] cursor-pointer">
+                            className="flex items-center w-full p-6 justify-between rounded-[16px] px-[10px] xl:px-[30px] lg:px-[30px] md:px-[30px] cursor-pointer">
                             <div className="flex space-x-4 items-center" >
                                 <div className="w-12 h-12 flex items-center justify-center rounded-[6px] bg-[#ECECEC]">
                                     <img src="/assets/icons/personal-info.png" alt="Bank Account" className="w-auto h-6 p-[2px]" />
@@ -76,7 +76,7 @@ const ProfileSettings = () => {
 
                         <div
                             onClick={handlePayment}
-                            className="flex items-center w-full p-6 justify-between rounded-[16px] px-[30px] cursor-pointer">
+                            className="flex items-center w-full p-6 justify-between rounded-[16px] px-[10px] xl:px-[30px] lg:px-[30px] md:px-[30px]  cursor-pointer">
                             <div className="flex space-x-4 items-center" >
                                 <div className="w-12 h-12 flex items-center justify-center rounded-[6px] bg-[#ECECEC]">
                                     <img src="/assets/icons/card.png" alt="Bank Account" className="w-auto h-6 p-[2px]" />
@@ -91,7 +91,7 @@ const ProfileSettings = () => {
                         </div>
 
                         <div
-                            className="flex items-center w-full p-6 justify-between rounded-[16px] px-[30px] cursor-pointer">
+                            className="flex items-center w-full p-6 justify-between rounded-[16px] px-[10px] xl:px-[30px] lg:px-[30px] md:px-[30px]  cursor-pointer">
                             <div className="flex space-x-4 items-center" >
                                 <div className="w-12 h-12 flex items-center justify-center rounded-[6px] bg-[#ECECEC]">
                                     <img src="/assets/icons/privacy.png" alt="Bank Account" className="w-auto h-6 p-[2px]" />
