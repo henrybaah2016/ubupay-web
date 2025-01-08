@@ -7,11 +7,11 @@ const Summary = () => {
 
 
     return (
-        <div className=" mx-[120px]" >
+        <div className="mx-[0px] xl:mx-[120px] lg:mx-[120px] md:mx-[120px]" >
             <span className="text-[16px] font-semibold  text-dark">Transaction Summary</span>
             <div className="p-6 rounded-[16px] px-[0px] mt-0 py-[40px]">
 
-                <div className="flex  flex-col px-[30px] py-[30px] bg-[#F9F9F9] ">
+                <div className="flex  flex-col px-[0px] xl:px-[30px] lg:px-[30px] md:px-[30px] py-[15px] xl:py-[30px] lg:py-[30px] md:py-[30px] bg-[#F9F9F9] ">
                     <div className="flex justify-between py-2 px-8">
                         <span className="text-[14px] font-semibold  text-[#A5A5A5]">Beneficiary</span>
                         <span className="text-[14px] font-semibold  text-dark">Jame Canor</span>
