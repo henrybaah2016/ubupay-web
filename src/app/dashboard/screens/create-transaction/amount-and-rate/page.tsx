@@ -15,9 +15,9 @@ const AmountAndRate = () => {
 
     return (
         <form onClick={handleSubmit}>
-             <div className=" mx-[120px]" >
+             <div className="mx-[0px] xl:mx-[120px] lg:mx-[120px] md:mx-[120px]" >
             <span className="text-[16px] font-semibold  text-dark">Amount & Rates</span>
-            <div className="p-6 rounded-[16px] px-[80px] mt-6 py-[40px] bg-[#F9F9F9]">
+            <div className="p-6 rounded-[16px] px-[10px] xl:px-[80px] lg:px-[80px] md:px-[80px] mt-6 py-[40px] bg-[#F9F9F9]">
                 <span className="text-sm font-semibold  text-dark">Enter Amount</span>
                 <div className="flex flex-col space-y-8">
                     <SenderAmountRate />
