@@ -12,7 +12,7 @@ const Banner = () => {
             >
                 <div className="flex items-center lg:flex-row flex-col-reverse xl:space-x-[50px] lg:px-24 xl:px-14 md:px-14 px-0 h-full">
                     <div className="px-6 md:px-0 lg:px-0 xl:pt-[60px] xl:px-0 lg:w-full xl:w-full h-full flex flex-col lg:justify-center">
-                        <h1 className="text-[#34342A] pt-[50px] leading-tight lg:leading-[43px] xl:leading-[73px] xl:pb-[30px] md:pb-[30px] lg:pb-4 pb-[30px] pt-0 lg:pt-[130px] xl:pt-[30px] md:pt-[100px] lg:text-[40px] xl:text-[60px] font-bold text-3xl">
+                        <h1 className="text-[#34342A] pt-[50px] leading-tight lg:leading-[43px] xl:leading-[73px] xl:pb-[30px] md:pb-[30px] lg:pb-4 pb-[30px] pt-0 lg:pt-[130px] xl:pt-[30px] md:pt-[100px] lg:text-[40px] xl:text-[58px] font-bold text-3xl">
                             Cross-border payment made easy
                         </h1>
                         <p className="pt-2 text-[#636464] text-[18px] leading-snug font-semibold md:text-[22px] xl:text-[20px] lg:text-[22px]">
