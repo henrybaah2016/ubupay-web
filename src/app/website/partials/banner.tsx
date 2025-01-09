@@ -55,7 +55,7 @@ const Banner = () => {
 
                                         <div className="flex justify-between items-center px-3">
                                             <span className="text-[14px] font-semibold text-gray-700 mb-2">
-                                                Convertion Rate
+                                                Conversion Rate
                                             </span>
                                             <p className="text-[14px] font-semibold text-gray-700 mb-2">
                                                 1 USD = 600 NGN
