@@ -102,7 +102,7 @@ const Header = () => {
             <a
               href="#1"
               onClick={() => {
-                router.push("/account/login");
+                
                 setIsMenuOpen(false);
               }}
               className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
@@ -112,7 +112,7 @@ const Header = () => {
             <button
               className="flex flex-row w-[150px] h-[60px] btn btn-normal xl:btn-normal mt-4 font-semibold items-center transition ease-out duration-500"
               onClick={() => {
-                router.push("/account/signup");
+                
                 setIsMenuOpen(false);
               }}
             >
@@ -125,14 +125,12 @@ const Header = () => {
       <div className="hidden lg:flex items-center space-x-8 xl:mr-[16px]">
         <a
           href="#1"
-          onClick={() => router.push("/account/login")}
           className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
         >
           Login
         </a>
         <button
           className="flex flex-row btn btn-normal xl:btn-normal font-semibold items-center transition ease-out duration-500"
-          onClick={() => router.push("/account/signup")}
         >
           Sign up
         </button>
