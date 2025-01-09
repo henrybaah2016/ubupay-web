@@ -16,7 +16,7 @@ const Banner = () => {
                             Cross-border payment made easy
                         </h1>
                         <p className="pt-2 text-[#636464] text-[18px] leading-snug font-semibold md:text-[22px] xl:text-[20px] lg:text-[22px]">
-                            Seamless, secure, and efficient money transfers from Canada<br /> to other African countries.
+                            Seamless, secure, and efficient money transfers from Canada to other African countries.
                         </p>
 
                         <div className="pt-[0px] lg:pt-[0px] z-10 relative w-full">
