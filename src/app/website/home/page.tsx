@@ -12,8 +12,11 @@ import Header from "../layout/header";
 const Home = () => {
   return (
     <div>
-      <Header />
-      <Banner />
+      <div className="bg-gradient-to-r from-[#000000] to-[#192e56] h-[900px]">
+        <Header />
+        <Banner />
+      </div>
+
       <WhyUbupay />
       <Solution />
       <HowItWorks />

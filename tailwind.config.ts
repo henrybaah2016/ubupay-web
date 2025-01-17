@@ -17,13 +17,13 @@ export default {
 
       },
       colors:{
-        primary:"#3E76DE",
+        primary:"#2058C0",
         secondary:"#2F5FB9",
         yellow:"#FFBB2C",
         dark:"#34342A"
       },
       fontFamily: {
-        gilroy: ['Gilroy'],
+        generalSans: ['GeneralSans'],
       },
       
   },

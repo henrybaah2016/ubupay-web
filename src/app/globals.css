@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Gilroy';
-  src: url('/assets/fonts/Gilroy.ttf') format('truetype');
+  font-family: 'GeneralSans';
+  src: url('/assets/fonts/GeneralSans.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -11,21 +11,24 @@
 
 
 body {
-  @apply font-gilroy;
+  font-family: 'GeneralSans', sans-serif;
 }
 
 .btn-normal {
-  @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-5 lg:py-4 md:py-4 py-4 px-10 xl:px-[55px] lg:px-6 md:px-6 bg-primary text-[#ffffff] hover:text-[#ffffff] font-semibold rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
+  @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-5 lg:py-4 md:py-4 py-4 px-10 xl:px-[55px] lg:px-6 md:px-6 bg-[#2058C0] text-[#ffffff] text-[16px] hover:text-[#ffffff] font-normal rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
 }
 
 .btn-normal-sm {
   @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-3 lg:py-3 md:py-2 py-2 px-4 xl:px-[40px] lg:px-5 md:px-6 bg-primary text-[#ffffff] hover:text-[#ffffff] font-semibold rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
 }
 
-
+.btn-playstore-new {
+  @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-3 lg:py-4 md:py-4 py-4 px-[20px] xl:px-[30px] lg:px-4 md:px-6  border-primary border-[1px] bg-transparent text-[#ffffff] hover:text-[#ffffff] font-medium rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
+}
 .btn-playstore {
   @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-5 lg:py-4 md:py-4 py-4 px-[20px] xl:px-[40px] lg:px-6 md:px-6 bg-[#2F5FB9] text-[#ffffff] hover:text-[#ffffff] font-semibold rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
 }
+
 .btn-appstore {
   @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-5 lg:py-4 md:py-4 py-4 px-[20px] xl:px-[40px] lg:px-6 md:px-6 bg-primary text-[#ffffff] hover:text-[#ffffff] font-semibold rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
 }

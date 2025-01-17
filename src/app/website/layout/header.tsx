@@ -8,13 +8,13 @@ const Header = () => {
   const router = useRouter();
 
   return (
-    <nav className="bg-white rounded-[100px] p-4 mx-[10px] xl:mx-[70px] lg:mx-[30px] mt-[20px] xl:mt-[40px] lg:mt-[40px] flex items-center justify-between">
+    <nav className=" py-10 mx-[10px] xl:mx-[70px] lg:mx-[30px] mt-[20px] xl:mt-[0px] lg:mt-[40px] flex items-center justify-between">
       <div className="flex items-center">
         <img
-          src="assets/images/logo.png"
+          src="assets/images/logo-ubu.png"
           alt="Logo"
           onClick={() => router.push("/")}
-          className="xl:h-16 lg:h-16 h-10 cursor-pointer w-auto xl:ml-[16px] lg:ml-[10px] ml-[10px]"
+          className="xl:h-10 lg:h-16 h-10 cursor-pointer w-auto xl:ml-[16px] lg:ml-[10px] ml-[10px]"
         />
       </div>
 
@@ -32,33 +32,33 @@ const Header = () => {
       <div className="hidden lg:flex flex-row justify-center items-center space-x-10">
         <a
           href="#home"
-          className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+          className="text-[#ffffff] font-normal text-[16px] hover:text-[#3E76DE] transition"
         >
           Home
         </a>
         <a
           href="#why-ubupay"
-          className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+          className="text-[#ffffff] font-normal text-[16px] hover:text-[#3E76DE] transition"
         >
           Why UbuPay?
         </a>
         <div className="relative">
           <button
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            className="flex items-center text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+            className="flex items-center text-[#ffffff] font-normal text-[16px] hover:text-[#3E76DE] transition"
           >
             Resources
-            <img
+            {/* <img
               src="assets/icons/dropdown.svg"
               alt=""
               className="w-[14px] h-auto ml-2"
-            />
+            /> */}
           </button>
           {isDropdownOpen && (
             <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg">
               <a
                 href="#resource1"
-                className="block px-4 py-2 text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+                className="block px-4 py-2 text-[#34342A] font-normal text-[16px] hover:text-[#3E76DE] transition"
               >
                 FAQs
               </a>
@@ -80,21 +80,22 @@ const Header = () => {
           <div className="flex flex-col mt-6 space-y-4">
             <a
               href="#home"
-              className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+              className="text-[#34342A] font-normal text-[16px] hover:text-[#3E76DE] transition"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </a>
             <a
               href="#why-ubupay"
-              className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+              className="text-[#34342A] font-normal text-[16px] hover:text-[#3E76DE] transition"
               onClick={() => setIsMenuOpen(false)}
             >
               Why UbuPay?
             </a>
+            
             <a
               href="#resources"
-              className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+              className="text-[#34342A] font-normal text-[16px] hover:text-[#3E76DE] transition"
               onClick={() => setIsMenuOpen(false)}
             >
               Resources
@@ -105,12 +106,12 @@ const Header = () => {
                 
                 setIsMenuOpen(false);
               }}
-              className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+              className="text-[#ffffff] font-normal text-[16px] hover:text-[#ffffff] transition"
             >
               Login
             </a>
             <button
-              className="flex flex-row w-[150px] h-[60px] btn btn-normal xl:btn-normal mt-4 font-semibold items-center transition ease-out duration-500"
+              className="flex flex-row w-[150px] h-[60px] btn btn-normal xl:btn-normal mt-4 font-normal text-[16px] items-center transition ease-out duration-500"
               onClick={() => {
                 
                 setIsMenuOpen(false);
@@ -125,12 +126,12 @@ const Header = () => {
       <div className="hidden lg:flex items-center space-x-8 xl:mr-[16px]">
         <a
           href="#1"
-          className="text-[#34342A] font-semibold hover:text-[#3E76DE] transition"
+          className="text-[#ffffff] font-normal text-[16px] hover:text-[#ffffff] transition"
         >
           Login
         </a>
         <button
-          className="flex flex-row btn btn-normal xl:btn-normal font-semibold items-center transition ease-out duration-500"
+          className="flex flex-row btn btn-normal xl:btn-normal font-normal text-[16px] items-center transition ease-out duration-500"
         >
           Sign up
         </button>
