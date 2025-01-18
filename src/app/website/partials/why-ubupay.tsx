@@ -4,16 +4,16 @@ const WhyUbupay = () => {
     return (
         <section className="absolute top-[520px] w-full  px-[20px]  mt-[0px] xl:mt-[140px] lg:mt-[140px] md:mt-[140px] py-[0px] xl:py-[100px] lg:py-[100px] md:py-[100px] rounded-[0px]">
             <div className="flex flex-col bg-[#ffffff] drop-shadow-xl rounded-[10px]  md:flex-col xl:flex-col lg:flex-row px-6 mx-[0px] xl:mx-[70px] md:mx-[30px] lg:mx-[30px] py-10 ">
-                <div className="flex flex-row space-x-28">
-                    <div className="flex flex-col items-center mx-[50px]">
+                <div className="flex flex-col xl:flex-row lg:flex-row md:flex-row xl:space-x-28">
+                    <div className="flex flex-col items-left mr-[100px] xl:mr-[0px] lg:mr-[0px] md:mr-[0px]  mx-[20px] xl:mx-[50px]">
                         <h3 className="font-semibold xl:text-[40px] text-[#000000] mb-[0px]">
                             200K
                         </h3>
-                        <p className=" text-[#3F3F3F] font-medium text-[14px] mb-[40px]">
+                        <p className=" text-[#3F3F3F] font-medium text-[14px] xl:text-[14px] mb-[40px]">
                             TOTAL TRANSACTIONS
                         </p>
                     </div>
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-left mr-[100px] xl:mr-[0px] lg:mr-[0px] md:mr-[0px]  mx-[20px] xl:mx-[50px]">
                         <h3 className="font-semibold xl:text-[40px] text-[#000000] mb-[0px]">
                             6
                         </h3>
