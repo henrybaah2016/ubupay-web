@@ -12,7 +12,7 @@ import Header from "../layout/header";
 const Home = () => {
   return (
     <div>
-      <div className="bg-gradient-to-r from-[#000000] to-[#192e56] h-[900px]">
+      <div className="bg-gradient-to-r from-[#000000] to-[#192e56] h-[950px]">
         <Header />
         <Banner />
       </div>

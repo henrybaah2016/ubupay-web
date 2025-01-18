@@ -56,7 +56,7 @@ const SenderAmountRateBanner = () => {
                                 <img
                                     src="/assets/icons/arrow-down-white-new.svg"
                                     alt=""
-                                    className="w-auto h-2 ml-2"
+                                    className="w-auto h-2 ml-2 xl:mr-4 lg:mr-4 md:mr-4"
                                 />
                             </div>
 

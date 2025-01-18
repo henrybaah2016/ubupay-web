@@ -1,13 +1,11 @@
-import ReceiverAmountRate from "@/app/dashboard/screens/create-transaction/component/receiver-amount-rate";
 import ReceiverAmountRateBanner from "@/app/dashboard/screens/create-transaction/component/receiver-amount-rate-banner";
-import SenderAmountRate from "@/app/dashboard/screens/create-transaction/component/sender-amount-rate";
 import SenderAmountRateBanner from "@/app/dashboard/screens/create-transaction/component/sender-amount-rate-banner";
 import React from "react";
 
 const Banner = () => {
     return (
 
-        <div className="flex flex-col items-center lg:mt-0 mt-[550px] px-[20px] xl:px-[20px] lg:px-[0px] xl:px-[40px]  md:mt-[400px] lg:mt-[20px] xl:mt-[20px] md:flex-col lg:flex-col xl:flex-col justify-center md:justify-center lg:justify-center xl:justify-center w-full xl:w-full lg:w-full h-[650px] xl:h-[600px] lg:h-[500px]">
+        <div className="flex flex-col items-center lg:mt-0 mt-[550px] px-[20px] xl:px-[20px] lg:px-[0px] xl:px-[40px]  md:mt-[400px] lg:mt-[20px] xl:mt-[20px] md:flex-col lg:flex-col xl:flex-col justify-center md:justify-center lg:justify-center xl:justify-center w-full xl:w-full lg:w-full h-[650px] xl:h-[550px] lg:h-[500px]">
             <div
                 id="solution"
                 className="h-full flex items-center lg:px-[0px] w-full pt-12 lg:pt-[100px]  lg:mb-[120px] xl:pt-[150px] md:pt-14"
@@ -39,22 +37,18 @@ const Banner = () => {
                                         <p className="text-white font-normal text-[16px] lg:text-lg xl:text-[14px] md:text-lg">Google Play</p>
                                     </div>
                                 </div>
-                                {/* <div
-                                    className="flex items-center w-[190px] md:w-auto lg:w-auto xl:w-auto mb-4 xl:mb-0 lg:mb-0 md:mb-0  btn cursor-pointer btn-appstore  transition ease-out duration-500 ">
-                                    <img src="../../assets/images/appstore.png" className="w-7 lg:w-6 xl:w-10 md:w-10" />
-                                    <div className="ml-2 md:ml-2 xl:ml-2 lg:ml-2">
-                                        <h6 className="text-white font-semibold text-[14px] lg:text-xs xl:text-xs md:text-xs">Download on the</h6>
-                                        <p className="text-white font-semibold text-[16px] lg:text-lg xl:text-lg md:text-lg">App Store</p>
-                                    </div>
-                                </div> */}
+
 
                             </div>
                         </div>
                     </div>
                     <div className="pt-6  mt-[12px]  lg:mt-[95px]   xl:mb-[0px] md:pt-0 flex  flex-col w-full lg:w-full md:w-[80%] xl:w-full justify-center ml-0 lg:ml-20 md:ml-0 xl:ml-20">
-                        <form>
+                        <form
+                            className="absolute  top-[300px] w-[40%] xl:w-[40%] lg:w-[40%] md:w-[40%]  h-[500px] left-[700px] w-full z-50 flex justify-center items-center"
+                            
+                        >
                             <div className="mx-[0px] xl:mx-[30px] lg:mx-[0px] md:mx-[0px]">
-                                <div className="p-6 w-full justify-center rounded-[16px] px-[10px] lg:px-[30px] mt-6 py-[40px] border-[0px] border-primary bg-[#0C162A]">
+                                <div className="p-6 w-full justify-center drop-shadow-xl rounded-[16px] px-[10px] lg:px-[30px] mt-6 py-[40px] border-[0px] border-primary bg-[#0C162A]">
                                     <div className="flex justify-center items-center">
                                         <span className="text-[18px] font-medium text-center w-full text-[#ffffff]">
                                             Send money today with UbuPay!
@@ -84,6 +78,7 @@ const Banner = () => {
                                 </div>
                             </div>
                         </form>
+
 
 
                     </div>

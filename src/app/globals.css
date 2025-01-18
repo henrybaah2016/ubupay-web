@@ -25,6 +25,13 @@ body {
 .btn-playstore-new {
   @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-3 lg:py-4 md:py-4 py-4 px-[20px] xl:px-[30px] lg:px-4 md:px-6  border-primary border-[1px] bg-transparent text-[#ffffff] hover:text-[#ffffff] font-medium rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
 }
+
+.btn-playstore-new-1 {
+  @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-3 lg:py-4 md:py-4 py-4 px-[20px] xl:px-[30px] lg:px-4 md:px-6  border-[#0C162A] border-[1px] bg-[#0C162A] text-[#ffffff] hover:text-[#ffffff] font-medium rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
+}
+.btn-playstore-new-2 {
+  @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-3 lg:py-4 md:py-4 py-4 px-[20px] xl:px-[30px] lg:px-4 md:px-6  border-[#0C162A] border-[1px] bg-transparent text-[#ffffff] hover:text-[#ffffff] font-medium rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
+}
 .btn-playstore {
   @apply mr-1 xl:mr-1 lg:mr-1 md:mr-1 xl:py-5 lg:py-4 md:py-4 py-4 px-[20px] xl:px-[40px] lg:px-6 md:px-6 bg-[#2F5FB9] text-[#ffffff] hover:text-[#ffffff] font-semibold rounded-[100px] hover:border-secondary hover:bg-secondary focus:ring-primary;
 }
