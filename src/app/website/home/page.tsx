@@ -7,17 +7,21 @@ import HowItWorks from "../partials/how-it-works";
 import DownloadApp from "../partials/download-app";
 import Footer from "../layout/footer";
 import Header from "../layout/header";
+import Countries from "../partials/countries";
 
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <Banner />
+      <div className="bg-gradient-to-r from-[#000000] to-[#192e56] h-[950px]">
+        <Header />
+        <Banner />
+      </div>
+
       <WhyUbupay />
       <Solution />
       <HowItWorks />
-      <DownloadApp />
+      <Countries />
       <Footer />
 
     </div>
