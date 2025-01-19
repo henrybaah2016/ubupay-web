@@ -23,7 +23,7 @@ const WhyUbupay = () => {
                     </div>
                 </div>
 
-                <hr className=" mr-[0px] xl:mr-[500px] lg:mr-[500px] md:mr-[500px]"/>
+                <hr className=" mr-[0px] xl:mr-[530px] lg:mr-[500px] md:mr-[500px]"/>
 
                 <div className="w-full md:w-full xl:mt-8 grid grid-cols-1 sm:grid-cols-3 gap-0">
                     <div className="flex flex-col items-start p-6">

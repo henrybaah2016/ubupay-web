@@ -13,7 +13,7 @@ import Countries from "../partials/countries";
 const Home = () => {
   return (
     <div>
-      <div className="bg-gradient-to-r from-[#000000] to-[#192e56] h-auto">
+      <div className="bg-gradient-to-r from-[#000000] to-[#192e56] h-auto xl:h-[950px] lg:h-[950px] md:h-[950px] w-full">
         <Header />
         <Banner />
       </div>
