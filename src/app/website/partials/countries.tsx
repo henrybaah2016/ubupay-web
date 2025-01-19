@@ -4,7 +4,7 @@ const Countries = () => {
 
 
     return (
-        <section className="bg-[#ffffff] mt-[0px] xl:mt-[0px] px-4 py-[10px] w-full rounded-[0px]">
+        <section className="bg-[#ffffff] mt-[0px] xl:mt-[0px] px-4 md:px-[70px] py-[10px] w-full rounded-[0px]">
             <div className="flex flex-col w-full md:items-center  md:flex-col xl:flex-row lg:flex-row px-4 mx-[0px] xl:mx-[0px] md:mx-[0px] lg:mx-[0px] xl:space-x-[50px] lg:space-x-[30px]  md:space-x-[0px]  py-10 ">
 
                 <div className="pt-6  lg:mt-[95px] xl:mb-[65px] md:pt-0 flex flex-col w-full lg:w-[45%] md:w-[55%]  xl:w-[55%]  justify-center  ml-0 lg:ml-20 md:ml-0 xl:ml-20">
