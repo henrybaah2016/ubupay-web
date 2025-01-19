@@ -7,6 +7,7 @@ import HowItWorks from "../partials/how-it-works";
 import DownloadApp from "../partials/download-app";
 import Footer from "../layout/footer";
 import Header from "../layout/header";
+import Countries from "../partials/countries";
 
 
 const Home = () => {
@@ -20,7 +21,7 @@ const Home = () => {
       <WhyUbupay />
       <Solution />
       <HowItWorks />
-      <DownloadApp />
+      <Countries />
       <Footer />
 
     </div>

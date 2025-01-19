@@ -10,7 +10,7 @@ const Banner = () => {
                 id="solution"
                 className="h-full flex items-center lg:px-[0px] w-full pt-12 lg:pt-[100px]  lg:mb-[120px] xl:pt-[150px] md:pt-14"
             >
-                <div className="flex items-center lg:flex-row flex-col-reverse xl:space-x-[50px] lg:px-24 xl:px-14 md:px-14 px-0 h-full">
+                <div className="flex items-center lg:flex-row flex-col-reverse xl:space-x-[10px] lg:px-24 xl:px-14 md:px-14 px-0 h-full">
                     <div className="px-6 md:px-0 lg:px-0 xl:pt-[60px] xl:px-0 lg:w-full xl:w-full h-full flex flex-col lg:justify-center">
                         <h1 className="text-[#ffffff] pt-[50px] leading-tight lg:leading-[43px] xl:leading-[73px] xl:pb-[30px] md:pb-[30px] lg:pb-4 pb-[30px] pt-0 lg:pt-[130px] xl:pt-[30px] md:pt-[100px] lg:text-[40px] xl:text-[55px] font-semibold text-3xl">
                             Instant transfer to Africa on UbuPay
