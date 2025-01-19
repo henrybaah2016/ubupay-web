@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false); 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const router = useRouter();
 
   return (
@@ -68,60 +68,57 @@ const Header = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-white z-50 flex flex-col p-6">
+        <div className="fixed inset-0 z-[9999] bg-[#0B1630] flex flex-col p-6">
+          {/* Close Button */}
           <div className="flex justify-end">
             <button
-              className="text-[#34342A] font-semibold text-xl"
+              className="text-[#ffffff] font-semibold text-xl"
               onClick={() => setIsMenuOpen(false)}
             >
               ✕
             </button>
           </div>
+
+          {/* Menu Links */}
           <div className="flex flex-col mt-6 space-y-4">
             <a
               href="#home"
-              className="text-[#34342A] font-normal text-[16px] hover:text-[#3E76DE] transition"
+              className="text-[#ffffff] font-normal text-[16px] hover:text-[#3E76DE] transition"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </a>
             <a
               href="#why-ubupay"
-              className="text-[#34342A] font-normal text-[16px] hover:text-[#3E76DE] transition"
+              className="text-[#ffffff] font-normal text-[16px] hover:text-[#3E76DE] transition"
               onClick={() => setIsMenuOpen(false)}
             >
               Why UbuPay?
             </a>
-            
             <a
               href="#resources"
-              className="text-[#34342A] font-normal text-[16px] hover:text-[#3E76DE] transition"
+              className="text-[#ffffff] font-normal text-[16px] hover:text-[#3E76DE] transition"
               onClick={() => setIsMenuOpen(false)}
             >
               Resources
             </a>
             <a
               href="#1"
-              onClick={() => {
-                
-                setIsMenuOpen(false);
-              }}
+              onClick={() => setIsMenuOpen(false)}
               className="text-[#ffffff] font-normal text-[16px] hover:text-[#ffffff] transition"
             >
               Login
             </a>
             <button
-              className="flex flex-row w-[150px] h-[60px] btn btn-normal xl:btn-normal mt-4 font-normal text-[16px] items-center transition ease-out duration-500"
-              onClick={() => {
-                
-                setIsMenuOpen(false);
-              }}
+              className="flex flex-row w-[150px] h-[60px] btn btn-normal xl:btn-normal mt-4 font-normal text-[16px] items-center justify-center transition ease-out duration-500"
+              onClick={() => setIsMenuOpen(false)}
             >
               Sign up
             </button>
           </div>
         </div>
       )}
+
 
       <div className="hidden lg:flex items-center space-x-8 xl:mr-[16px]">
         <a
