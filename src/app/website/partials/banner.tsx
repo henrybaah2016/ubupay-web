@@ -44,7 +44,7 @@ const Banner = () => {
                     </div>
                     <div className="pt-6  mt-[6px]  lg:mt-[95px]   xl:mb-[0px] md:pt-[80px] flex  flex-col md:flex-col w-full lg:w-full md:w-full xl:w-full justify-center ml-0 lg:ml-20 md:ml-0 xl:ml-20">
                         <form
-                            className=" xl:absolute lg:absolute left-[0px] top-[10px] xl:left-[700px] xl:top-[300px] lg:left-[700px] lg:top-[300px] md:left-[0px] md:top-[30px] px-0 xl:px-0  lg:px-0  md:px-0 w-full xl:w-[40%] lg:w-[40%] md:w-full md:h-[500px]  h-[500px]  w-full z-50 flex justify-center items-center"
+                            className=" xl:absolute lg:absolute left-[0px] top-[10px] xl:left-[700px] xl:top-[300px] lg:left-[550px] lg:top-[300px] md:left-[0px] md:top-[30px] px-0 xl:px-0  lg:px-0  md:px-0 w-full xl:w-[40%] lg:w-[40%] md:w-full md:h-[500px]  h-[500px]  w-full z-50 flex justify-center items-center"
                             
                         >
                             <div className="mx-[0px] xl:mx-[30px] lg:mx-[0px] md:mx-[0px]">

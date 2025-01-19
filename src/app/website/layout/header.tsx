@@ -8,13 +8,13 @@ const Header = () => {
   const router = useRouter();
 
   return (
-    <nav className=" py-10 mx-[10px] xl:mx-[70px] lg:mx-[30px] mt-[0px] xl:mt-[0px] lg:mt-[40px] flex items-center justify-between">
+    <nav className=" py-10 mx-[10px] xl:mx-[70px] lg:mx-[50px] md:mx-[30px] mt-[0px] xl:mt-[0px] lg:mt-[0px] flex items-center justify-between">
       <div className="flex items-center">
         <img
           src="assets/images/logo-ubu.png"
           alt="Logo"
           onClick={() => router.push("/")}
-          className="xl:h-10 lg:h-16 h-8 cursor-pointer w-auto xl:ml-[16px] lg:ml-[10px] ml-[10px]"
+          className="xl:h-10 lg:h-10 md:h-10 h-8 cursor-pointer w-auto xl:ml-[16px] lg:ml-[10px] ml-[10px]"
         />
       </div>
 
