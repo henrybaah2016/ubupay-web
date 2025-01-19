@@ -5,14 +5,14 @@ import React from "react";
 const Banner = () => {
     return (
 
-        <div className="flex flex-col items-center lg:mt-0 mt-[550px] px-[20px] xl:px-[20px] lg:px-[0px] xl:px-[40px]  md:mt-[400px] lg:mt-[20px] xl:mt-[20px] md:flex-col lg:flex-col xl:flex-col justify-center md:justify-center lg:justify-center xl:justify-center w-full xl:w-full lg:w-full h-[650px] xl:h-[550px] lg:h-[500px]">
+        <div className="flex flex-col items-center lg:mt-0 mt-[0px] px-[20px] xl:px-[20px] lg:px-[0px] xl:px-[40px]  md:mt-[400px] lg:mt-[20px] xl:mt-[20px] md:flex-col lg:flex-col xl:flex-col justify-center md:justify-center lg:justify-center xl:justify-center w-full xl:w-full lg:w-full h-auto xl:h-[550px] lg:h-[500px]">
             <div
                 id="solution"
-                className="h-full flex items-center lg:px-[0px] w-full pt-12 lg:pt-[100px]  lg:mb-[120px] xl:pt-[150px] md:pt-14"
+                className="h-full flex items-center lg:px-[0px] w-full pt-4 lg:pt-[100px]  lg:mb-[120px] xl:pt-[150px] md:pt-14"
             >
-                <div className="flex items-center lg:flex-row flex-col-reverse xl:space-x-[10px] lg:px-24 xl:px-14 md:px-14 px-0 h-full">
+                <div className="flex  items-center lg:flex-row flex-col-reverse xl:space-x-[10px] lg:px-24 xl:px-14 md:px-14 px-0 h-full">
                     <div className="px-6 md:px-0 lg:px-0 xl:pt-[60px] xl:px-0 lg:w-full xl:w-full h-full flex flex-col lg:justify-center">
-                        <h1 className="text-[#ffffff] pt-[50px] leading-tight lg:leading-[43px] xl:leading-[73px] xl:pb-[30px] md:pb-[30px] lg:pb-4 pb-[30px] pt-0 lg:pt-[130px] xl:pt-[30px] md:pt-[100px] lg:text-[40px] xl:text-[55px] font-semibold text-3xl">
+                        <h1 className="text-[#ffffff] pt-[110px] leading-tight lg:leading-[43px] xl:leading-[73px] xl:pb-[30px] md:pb-[30px] lg:pb-4 pb-[30px] pt-0 lg:pt-[130px] xl:pt-[30px] md:pt-[100px] lg:text-[40px] xl:text-[55px] font-semibold text-3xl">
                             Instant transfer to Africa on UbuPay
                         </h1>
                         <p className="pt-2 text-[#DCDCDC] text-[16px] leading-snug font-normal md:text-[18px] xl:text-[18px] lg:text-[18px]">
@@ -42,9 +42,9 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="pt-6  mt-[12px]  lg:mt-[95px]   xl:mb-[0px] md:pt-0 flex  flex-col w-full lg:w-full md:w-[80%] xl:w-full justify-center ml-0 lg:ml-20 md:ml-0 xl:ml-20">
+                    <div className="pt-6  mt-[0px]  lg:mt-[95px]   xl:mb-[0px] md:pt-0 flex  flex-col w-full lg:w-full md:w-[80%] xl:w-full justify-center ml-0 lg:ml-20 md:ml-0 xl:ml-20">
                         <form
-                            className="absolute left-[0px] top-[180px] xl:left-[700px] xl:top-[300px] lg:left-[700px] lg:top-[300px] md:left-[700px] md:top-[300px] px-4 xl:px-0  lg:px-0  md:px-0 w-full xl:w-[40%] lg:w-[40%] md:w-[40%]  h-[500px]  w-full z-50 flex justify-center items-center"
+                            className=" xl:absolute lg:absolute md:absolute left-[0px] top-[10px] xl:left-[700px] xl:top-[300px] lg:left-[700px] lg:top-[300px] md:left-[700px] md:top-[300px] px-0 xl:px-0  lg:px-0  md:px-0 w-full xl:w-[40%] lg:w-[40%] md:w-[40%]  h-[500px]  w-full z-50 flex justify-center items-center"
                             
                         >
                             <div className="mx-[0px] xl:mx-[30px] lg:mx-[0px] md:mx-[0px]">
