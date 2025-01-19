@@ -82,7 +82,7 @@ const Footer = () => {
                             <a href="#0"><span>Get in Touch</span></a>
                         </h4>
                         <ul>
-                            {["+1 (613) 793-9059", "info@ubupay.ca", "23 Ave Street Canada",].map((item, index) => (
+                            {["+1 (613) 793-9059", "support@ubupay.ca", "3-425 McArthur Ave., Ottawa, Ontario, Canada, K1K 1G5",].map((item, index) => (
                                 <li
                                     key={index}
                                     className="ml-0 xl:ml-0 lg:ml-0 md:ml-0 pb-2 font-normal text-[14px] text-[#DCDCDC] transition ease-out duration-500"

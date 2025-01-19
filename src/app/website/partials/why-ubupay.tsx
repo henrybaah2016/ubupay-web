@@ -15,7 +15,7 @@ const WhyUbupay = () => {
                     </div>
                     <div className="flex flex-col items-left mr-[100px] xl:mr-[0px] lg:mr-[0px] md:mr-[0px]  mx-[20px] xl:mx-[50px]">
                         <h3 className="font-semibold text-[35px] xl:text-[40px] lg:text-[40px] md:text-[40px] text-[#000000] mb-[0px]">
-                            6
+                            10
                         </h3>
                         <p className=" text-[#3F3F3F] font-medium text-[14px] mb-[40px]">
                         NUMBER OF COUNTRIES
@@ -23,7 +23,7 @@ const WhyUbupay = () => {
                     </div>
                 </div>
 
-                <hr className=" mr-[0px] xl:mr-[530px] lg:mr-[330px] md:mr-[500px]"/>
+                <hr className=" mr-[0px] xl:mr-[530px] lg:mr-[330px] md:mr-[50px]"/>
 
                 <div className="w-full md:w-full xl:mt-8 lg:mt-8 grid grid-cols-1 sm:grid-cols-3 gap-0">
                     <div className="flex flex-col items-start p-6">
