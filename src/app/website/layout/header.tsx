@@ -8,13 +8,13 @@ const Header = () => {
   const router = useRouter();
 
   return (
-    <nav className=" py-10 mx-[10px] xl:mx-[70px] lg:mx-[30px] mt-[20px] xl:mt-[0px] lg:mt-[40px] flex items-center justify-between">
+    <nav className=" py-10 mx-[10px] xl:mx-[70px] lg:mx-[30px] mt-[0px] xl:mt-[0px] lg:mt-[40px] flex items-center justify-between">
       <div className="flex items-center">
         <img
           src="assets/images/logo-ubu.png"
           alt="Logo"
           onClick={() => router.push("/")}
-          className="xl:h-10 lg:h-16 h-10 cursor-pointer w-auto xl:ml-[16px] lg:ml-[10px] ml-[10px]"
+          className="xl:h-10 lg:h-16 h-8 cursor-pointer w-auto xl:ml-[16px] lg:ml-[10px] ml-[10px]"
         />
       </div>
 
@@ -23,7 +23,7 @@ const Header = () => {
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         <img
-          src="assets/icons/menu.svg"
+          src="assets/icons/menu-white.svg"
           alt="Menu"
           className="w-auto h-5 mr-[10px] cursor-pointer"
         />
