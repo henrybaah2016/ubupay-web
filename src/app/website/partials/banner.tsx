@@ -20,7 +20,7 @@ const Banner = () => {
                         </p>
 
                         <div className="pt-[0px] lg:pt-[0px] z-10 relative w-full">
-                            <div className="flex  flex-col space-x-4  xl:flex-row lg:flex-row md:flex-row mt-12 mb:mt-12 lg:mt-8 xl:mt-12 mx-0 lg:mx-4 xl:mx-2 md:mx-0 pb-10  xl:items-left xl:items-center lg:items-center md:items-center">
+                            <div className="flex  flex-col xl:space-x-4 lg:space-x-4  md:space-x-4   xl:flex-row lg:flex-row md:flex-row mt-12 mb:mt-12 lg:mt-8 xl:mt-12 mx-0 lg:mx-4 xl:mx-2 md:mx-0 pb-10  xl:items-left xl:items-center lg:items-center md:items-center">
                                 <div
                                     className="flex items-center w-[190px] md:w-auto lg:w-auto xl:w-auto mb-4 xl:mb-0 lg:mb-0 md:mb-0  btn cursor-pointer btn-playstore-new  transition ease-out duration-500 ">
                                     <img src="../../assets/images/playstore.png" className="w-7 lg:w-6 xl:w-8 md:w-8" />
